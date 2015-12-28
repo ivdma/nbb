@@ -14,7 +14,7 @@ module Nbb
       teams(query_string)
     end
 
-    private_class_method def self.teams(query_string)
+    def self.teams(query_string)
       response(query_string)['teams'].map { |team| Nbb::Models::Team.new(team) }
     end
   end

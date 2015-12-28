@@ -15,7 +15,7 @@ module Nbb
       clubs query_string
     end
 
-    private_class_method def self.clubs(query_string)
+    def self.clubs(query_string)
       response(query_string)['clubs'].map { |club| Nbb::Models::Club.new(club) }
     end
   end
