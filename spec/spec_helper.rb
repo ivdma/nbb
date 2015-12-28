@@ -1,5 +1,7 @@
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start if ENV['CODECLIMATE_REPO_TOKEN']
+if ENV['CODECLIMATE_REPO_TOKEN'] && RUBY_VERSION.include?("2.3")
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
+end
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'nbb'
@@ -7,7 +9,8 @@ require 'webmock/rspec'
 require 'vcr'
 require 'pry'
 
-VCR.configure do |c|
-  c.cassette_library_dir = "spec/fixtures"
-  c.hook_into :webmock
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures"
+  config.hook_into :webmock
+  config.ignore_hosts 'codeclimate.com'
 end
