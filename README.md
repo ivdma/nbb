@@ -38,7 +38,7 @@ NBB.clubs(options)
 
 ```ruby
 [
-  <Models::Club:0x007fb8a1043678
+  <NBB::Models::Club:0x007fb8a1043678
     @adres="Ouderkerkerdijk 150",
     @id="372",
     @naam="A.P.G.S.",
@@ -67,12 +67,12 @@ teams = NBB.teams club_id: 356
 
 ```ruby
 [
-  <Nbb::Models::Team:0x007fd3b5924cb8
+  <NBB::Models::Team:0x007fd3b5924cb8
     @club_id="356",
     @comp_id="2531",
     @id="3587",
     @naam="Dames 1">,
-  <Nbb::Models::Team:0x007fd3b59248a8
+  <NBB::Models::Team:0x007fd3b59248a8
     @club_id="356",
     @comp_id="2386",
     @id="9298",
