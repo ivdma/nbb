@@ -8,13 +8,14 @@ dependencies:
     - 'rvm-exec 2.1.8 gem install bundler'
     - 'rvm-exec 2.2.4 gem install bundler'
     - 'rvm-exec 2.3.0 gem install bundler'
-
   override:
-    - 'rvm-exec 1.9.3-p551 bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --clean'
-    - 'rvm-exec 2.0.0-p648 bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --clean'
-    - 'rvm-exec 2.1.8 bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --clean'
-    - 'rvm-exec 2.2.4 bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --clean'
-    - 'rvm-exec 2.3.0 bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --clean'
+    - 'rvm-exec 1.9.3-p551 bundle install'
+    - 'rvm-exec 2.0.0-p648 bundle install'
+    - 'rvm-exec 2.1.8 bundle install'
+    - 'rvm-exec 2.2.4 bundle install'
+    - 'rvm-exec 2.3.0 bundle install'
+  cache_directories:
+    - '~/.rvm/rubies'
 
 test:
   override:
