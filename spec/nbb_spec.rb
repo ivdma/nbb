@@ -20,11 +20,10 @@ describe Nbb do
   end
 
   describe '::clubs' do
-    it 'returns json with clubs' do
+    it 'calls Nbb::Clubs.all' do
       VCR.use_cassette :clubs_2015_2016 do
-        clubs = described_class.clubs
-        expect(clubs.length).to eq 331
-        expect(clubs.map(&:naam)).to include 'BV Penta'
+        expect(Nbb::Clubs).to receive(:all).with({}).once
+        described_class.clubs
       end
     end
   end
@@ -34,17 +33,11 @@ describe Nbb do
       expect(described_class).to respond_to :teams
     end
 
-    it 'requires clb_ID or club_id in params' do
-      expect do
-        described_class.teams
-      end.to raise_error ArgumentError, 'Missing `clb_ID` (or `club_id`) parameter.'
-    end
-
-    it 'returns teams based on club_id' do
+    it 'calls Nbb::Teams.all' do
       VCR.use_cassette :teams_celeritas_2015_2016 do
-        teams = described_class.teams(club_id: 356)
-        expect(teams.length).to eq 36
-        expect(teams.map(&:naam)).to include 'Heren 5'
+        club_id = 356
+        expect(Nbb::Teams).to receive(:all).with(club_id: club_id).once
+        described_class.teams club_id: club_id
       end
     end
   end

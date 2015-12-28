@@ -1,0 +1,20 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'Guardfile'
+
+Metrics/LineLength:
+  Max: 120
+
+######################################################################
+#
+#   DISABLED COPS
+#
+# Instructions:
+# Feel free to disable a cop, but do provide a decent
+# comment why you disable it.
+
+# Documentation is currently provided via README.md
+Style/Documentation:
+  Enabled: false

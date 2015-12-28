@@ -4,20 +4,20 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'nbb/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nbb"
+  spec.name          = 'nbb'
   spec.version       = Nbb::VERSION
-  spec.authors       = ["Ivan Malykh"]
-  spec.email         = ["ivan@lesslines.com"]
+  spec.authors       = ['Ivan Malykh']
+  spec.email         = ['ivan@lesslines.com']
 
-  spec.summary       = %q{Ruby wrapper for Dutch Basketball Association JSON API}
-  spec.description   = %q{This Ruby gems wraps Nederlandse Basketbal Bond (NBB) JSON API}
-  spec.homepage      = "https://github.com/ivdma/nbb"
-  spec.license       = "MIT"
+  spec.summary       = 'Ruby wrapper for Dutch Basketball Association JSON API'
+  spec.description   = 'This Ruby gems wraps Nederlandse Basketbal Bond (NBB) JSON API'
+  spec.homepage      = 'https://github.com/ivdma/nbb'
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
+  spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
   spec.add_dependency 'httparty',                  '~> 0.13'
   spec.add_dependency 'activesupport',             '~> 4.2'
@@ -30,4 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'webmock',       '~> 1.22'
   spec.add_development_dependency 'vcr',           '~> 3.0'
   spec.add_development_dependency 'pry',           '~> 0.10'
+  spec.add_development_dependency 'rubocop',       '~> 0.35'
+  spec.add_development_dependency 'guard-rubocop', '~> 1.2'
 end

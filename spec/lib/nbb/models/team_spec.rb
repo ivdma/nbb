@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Nbb::Models::Team do
-
   let(:valid_attributes) do
     {
       id: '123',
