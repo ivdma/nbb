@@ -10,11 +10,11 @@ dependencies:
     - 'rvm-exec 2.3.0 gem install bundler'
 
   override:
-    - 'rvm-exec 1.9.3-p551 bundle install'
-    - 'rvm-exec 2.0.0-p648 bundle install'
-    - 'rvm-exec 2.1.8 bundle install'
-    - 'rvm-exec 2.2.4 bundle install'
-    - 'rvm-exec 2.3.0 bundle install'
+    - 'rvm-exec 1.9.3-p551 bundle check --path=vendor/bundle/1.9.3 || bundle install --path=vendor/bundle/1.9.3 --clean'
+    - 'rvm-exec 2.0.0-p648 bundle check --path=vendor/bundle/2.0.0 || bundle install --path=vendor/bundle/2.0.0 --clean'
+    - 'rvm-exec 2.1.8 bundle check --path=vendor/bundle/2.1.8 || bundle install --path=vendor/bundle/2.1.8 --clean'
+    - 'rvm-exec 2.2.4 bundle check --path=vendor/bundle/2.2.4 || bundle install --path=vendor/bundle/2.2.4 --clean'
+    - 'rvm-exec 2.3.0 bundle check --path=vendor/bundle/2.3.0 || bundle install --path=vendor/bundle/2.3.0 --clean'
 
 test:
   override:
