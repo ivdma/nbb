@@ -1,7 +1,7 @@
 module Nbb
   module Models
     class Club < Nbb::Models::Base
-      ATTRIBUTES = %i(id org_id nr naam shirt adres postcode plaats web vestpl)
+      ATTRIBUTES = [:id, :org_id, :nr, :naam, :shirt, :adres, :postcode, :plaats, :web, :vestpl]
 
       ATTRIBUTES.each { |attribute| attr_accessor attribute }
 

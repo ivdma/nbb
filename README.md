@@ -1,4 +1,5 @@
 [![Circle CI](https://circleci.com/gh/ivdma/nbb.svg?style=svg)](https://circleci.com/gh/ivdma/nbb)
+[![Dependency Status](https://gemnasium.com/ivdma/nbb.svg)](https://gemnasium.com/ivdma/nbb)
 
 # NBB
 

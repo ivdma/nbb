@@ -1,7 +1,7 @@
 module Nbb
   module Models
     class Team < Nbb::Models::Base
-      ATTRIBUTES = %i(id comp_id naam club_id)
+      ATTRIBUTES = [:id, :comp_id, :naam, :club_id]
 
       ATTRIBUTES.each { |attribute| attr_accessor attribute }
 
