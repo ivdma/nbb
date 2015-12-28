@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/club.pl?org_id=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Dec 2015 22:11:53 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"last_change":"2015-12-22 11:16:27","version":"1.3","clubs":[{"adres":"Ouderkerkerdijk
+        150","shirt":"Rood","plaats":"Amsterdam","web":"http://www.apgs-amsterdam.nl/","org_id":"6","id":"372","naam":"A.P.G.S.","postcode":"1096CR","vestpl":"Amsterdam","nr":"4112"},{"adres":"Pieter
+        Calandlaan 182","shirt":"onbekend","plaats":"Amsterdam","web":"","org_id":"6","id":"981","naam":"AAC-Caland","postcode":"1068NT","vestpl":"Amsterdam","nr":"4212"},{"adres":"Bisschop
+        Bottemannestraat 36","shirt":"Zwart","plaats":"Alkmaar","web":"http://www.alkmaarguardians.nl/","org_id":"6","id":"367","naam":"Alkm.Guardians","postcode":"1817ED","vestpl":"Alkmaar","nr":"4106"},{"adres":"larixlaan
+        40","shirt":"Bordeauxrood","plaats":"zwanenburg","web":"http://www.amvj-amsterdam.nl/","org_id":"6","id":"370","naam":"AMVJ-Amsterdam","postcode":"1161SZ","vestpl":"Amsterdam","nr":"4110"},{"adres":"Parelmosstraat
+        28","shirt":"Geel","plaats":"Almere","web":"http://www.anoeta.nl/","org_id":"6","id":"371","naam":"Anoeta","postcode":"1314MN","vestpl":"amsterdam","nr":"4111"},{"adres":"Dijksgracht
+        9","shirt":"Wit","plaats":"Amsterdam","web":"http://www.bcapollo.nl/","org_id":"6","id":"531","naam":"BC
+        APOLLO A''dam","postcode":"1019BT","vestpl":"Amsterdam","nr":"4204"},{"adres":"Wagenaarstraat
+        6-hs","shirt":"Rood","plaats":"Amsterdam","web":"http://flyingoost.wix.com/flyingoost","org_id":"6","id":"917","naam":"BC
+        Flying Oost","postcode":"1093CP","vestpl":"Amsterdam","nr":"4209"},{"adres":"Renooiplein
+        8","shirt":"Geel","plaats":"Amsterdam","web":"http://bcwarriors.nl/","org_id":"6","id":"933","naam":"BC
+        Gaasperdam Warriors","postcode":"1107EA","vestpl":"Amsterdam Zuidoost","nr":"4210"},{"adres":"Science
+        Park 306","shirt":"geel/zwart","plaats":"Amsterdam","web":"http://www.bcschrobbelaar.nl/","org_id":"6","id":"431","naam":"BC
+        Schrobbelaar","postcode":"1098XH","vestpl":"Amsterdam","nr":"4171"},{"adres":"Poelgeest
+        3","shirt":"Zwart","plaats":"Haarlem","web":"http://www.ttt-basketball.nl","org_id":"6","id":"909","naam":"BC
+        Triple Threat","postcode":"2036HL","vestpl":"Haarlem","nr":"4208"},{"adres":"Middenweg
+        454","shirt":"Wit","plaats":"Amsterdam","web":"http://www.bluestars-basketbal.nl/","org_id":"6","id":"379","naam":"Blue
+        Stars","postcode":"1097VC","vestpl":"Diemen","nr":"4119"},{"adres":"Elft 63-d","shirt":"Paars","plaats":"Hippolytushoef","web":"http://www.breakout88.com/","org_id":"6","id":"449","naam":"Break
+        Out ''88","postcode":"1777PA","vestpl":"Wieringen","nr":"4189"},{"adres":"Witkopeend
+        44","shirt":"Blauw","plaats":"Uithoorn","web":"http://www.bvaalsmeer.nl/","org_id":"6","id":"362","naam":"BV
+        Aalsmeer","postcode":"1423 SP","vestpl":"Aalsmeer","nr":"4101"},{"adres":"Chassestraat
+        90- 1e","shirt":"Licht Blauw","plaats":"Amsterdam","web":"http://www.bvamsterdam.nl/","org_id":"6","id":"369","naam":"BV
+        Amsterdam","postcode":"1057JK","vestpl":"Amsterdam","nr":"4109"},{"adres":"Postbus
+        1037","shirt":"Oranje","plaats":"Purmerend","web":"http://www.earlybird.nl/","org_id":"6","id":"393","naam":"BV
+        Early Bird","postcode":"1440BA","vestpl":"Purmerend","nr":"4133"},{"adres":"Pannewal
+        31","shirt":"Rood","plaats":"Enkhuizen","web":"http://basketbal-enkhuizen.nl/","org_id":"6","id":"395","naam":"BV
+        Enkhuizen","postcode":"1602KR","vestpl":"Enkhuizen","nr":"4135"},{"adres":"A.M.
+        Zernikestraat 43","shirt":"Wit","plaats":"Hoofddorp","web":"http://www.bvhoofddorp.nl","org_id":"6","id":"409","naam":"BV
+        Hoofddorp","postcode":"2135PL","vestpl":"Hoofddorp","nr":"4149"},{"adres":"Rollandstraat
+        38","shirt":"Oranje","plaats":"Haarlem","web":"http://www.bvlisse.nl/","org_id":"6","id":"419","naam":"BV
+        Lisse","postcode":"2013SP","vestpl":"Lisse","nr":"4159"},{"adres":"Van der
+        Burchstraat 24","shirt":"Licht Blauw","plaats":"Spaarndam","web":"http://www.bvspaarndam.nl/","org_id":"6","id":"434","naam":"BV
+        Spaarndam","postcode":"2064WK","vestpl":"Spaarndam","nr":"4174"},{"adres":"Schaarsenbergenstraat
+        114","shirt":"Zwart","plaats":"Amsterdam ZO","web":"","org_id":"6","id":"471","naam":"Club
+        2000","postcode":"1107JX","vestpl":"AMSTERDAM","nr":"4108"},{"adres":"Olympisch
+        Stadion 14","shirt":"roze","plaats":"Amsterdam","web":"http://www.ctovrouwenbasketball.nl/","org_id":"6","id":"532","naam":"CTO","postcode":"1076DE","vestpl":"Nieuwegein","nr":"4205"},{"adres":"Fender
+        29","shirt":"Wit","plaats":"Uithoorn","web":"http://www.bvded.nl/","org_id":"6","id":"384","naam":"D.E.D.","postcode":"1423EA","vestpl":"Amsterdam","nr":"4124"},{"adres":"Avenhornstraat
+        39","shirt":"Blauw","plaats":"Amsterdam","web":"http://www.dwvbasketball.nl/","org_id":"6","id":"392","naam":"D.W.V.","postcode":"1023TR","vestpl":"Amsterdam","nr":"4132"},{"adres":"Grote
+        Oost 51","shirt":"Blauw","plaats":"Hoorn","web":"http://www.hoppersbasketbal.nl/","org_id":"6","id":"410","naam":"De
+        Hoppers","postcode":"1621BS","vestpl":"Hoorn","nr":"4150"},{"adres":"Van Reigersbergenstraat
+        334","shirt":"Blauw","plaats":"Amsterdam","web":"http://www.despuyt.nl/basketball/","org_id":"6","id":"435","naam":"De
+        Spuyt","postcode":"1052WT","vestpl":"Amsterdam","nr":"4175"},{"adres":"Waalstraat
+        39","shirt":"Zwart","plaats":"Den Helder","web":"http://www.bvnoordkop-denhelder.nl/","org_id":"6","id":"424","naam":"Den
+        Helder Kings Noordkop","postcode":"1784VT","vestpl":"Den Helder","nr":"4164"},{"adres":"Klipper
+        42","shirt":"Blauw","plaats":"De Rijp","web":"http://www.derba.nl/","org_id":"6","id":"385","naam":"Derba","postcode":"1483TV","vestpl":"De
+        Rijp","nr":"4125"},{"adres":"Venneperweg 831","shirt":"Blauw","plaats":"Nieuw-Vennep","web":"http://www.diosbasketbal.nl/","org_id":"6","id":"388","naam":"DIOS","postcode":"2152MB","vestpl":"Nieuw-Vennep","nr":"4128"},{"adres":"Waterkeringsweg
+        17","shirt":"Blauw","plaats":"Den Helder","web":"http://www.denhelderbasketball.nl/","org_id":"6","id":"426","naam":"Dozy
+        BV Den Helder","postcode":"1785HV","vestpl":"Den Helder","nr":"4166"},{"adres":"De
+        Schoren 17","shirt":"Blauw","plaats":"Heiloo","web":"http://www.flashing-heiloo.nl/","org_id":"6","id":"405","naam":"Flashing
+        Heiloo","postcode":"1852BL","vestpl":"Heiloo","nr":"4145"},{"adres":"Stevinstraat
+        19","shirt":"Groen","plaats":"Badhoevedorp","web":"http://www.harlemlakers.nl/","org_id":"6","id":"403","naam":"Harlemlakers","postcode":"1171XW","vestpl":"Badhoevedorp","nr":"4143"},{"adres":"Rosa
+        Sierplantsoen 79","shirt":"Groen","plaats":"Heerhugowaard","web":"http://hbc-basketbal.nl/","org_id":"6","id":"404","naam":"HBC","postcode":"1705KV","vestpl":"Heerhugowaard","nr":"4144"},{"adres":"Ammerzoden
+        28","shirt":"Blauw/wit","plaats":"Hillegom","web":"http://www.bvhillegom85.nl/","org_id":"6","id":"407","naam":"Hillegom''85","postcode":"2181LZ","vestpl":"Hillegom","nr":"4147"},{"adres":"Pluimessenlaan
+        8","shirt":"Paars","plaats":"Amstelveen","web":"http://www.jawsbasketbal.nl/","org_id":"6","id":"365","naam":"JAWS","postcode":"1185RN","vestpl":"Amsterdam","nr":"4104"},{"adres":"Postbus
+        1035","shirt":"Zwart","plaats":"Julianadorp","web":"http://www.jbc-noorderhaven.nl/","org_id":"6","id":"412","naam":"JBC/Noorderhaven","postcode":"1780EA","vestpl":"Julianadorp","nr":"4152"},{"adres":"Asterkade
+        23","shirt":"Blauw","plaats":"Heemstede","web":"http://www.ktcbasketbal.nl/","org_id":"6","id":"414","naam":"K.T.C.","postcode":"2106BA","vestpl":"Haarlem","nr":"4154"},{"adres":"Staringstraat
+        36-1","shirt":"onbekend","plaats":"Amsterdam","web":"","org_id":"6","id":"980","naam":"Killa
+        Beez","postcode":"1054VR","vestpl":"Amsterdam","nr":"4211"},{"adres":"Zuider
+        Buiten Spaarne 28-10","shirt":"Groen","plaats":"Haarlem","web":"http://www.lakecityplayers.nl/","org_id":"6","id":"416","naam":"L.C.
+        Players","postcode":"2012AA","vestpl":"Uitgeest","nr":"4156"},{"adres":"Langebreek
+        20","shirt":"Rood","plaats":"Landsmeer","web":"http://www.probuildlions.nl/","org_id":"6","id":"415","naam":"Landslake
+        Lions","postcode":"1121KT","vestpl":"Landsmeer","nr":"4155"},{"adres":"annette
+        poelmanstraat 42","shirt":"Blauw","plaats":"Heemskerk","web":"http://www.mapleleaves.nl/","org_id":"6","id":"421","naam":"Mapleleaves","postcode":"1963ES","vestpl":"Heemskerk","nr":"4161"},{"adres":"Jo
+        Vincentlaan 6","shirt":"Zwart","plaats":"Amstelveen","web":"http://www.mbca.nl/","org_id":"6","id":"460","naam":"MBCA","postcode":"1187HD","vestpl":"Amstelveen","nr":"4123"},{"adres":"Houtrib
+        8","shirt":"Oranje","plaats":"Monnickendam","web":"http://www.themonks.nl/","org_id":"6","id":"422","naam":"Monks","postcode":"1141DE","vestpl":"Monnickendam","nr":"4162"},{"adres":"Dijksgracht
+        9-A","shirt":"Rood","plaats":"Amsterdam","web":"","org_id":"6","id":"423","naam":"Mosquito''s","postcode":"1019BT","vestpl":"Amsterdam","nr":"4163"},{"adres":"Jan
+        Aarjensz Prinsstraat 46","shirt":"Rood","plaats":"Den Helder","web":"http://www.zeemacht.nl/","org_id":"6","id":"448","naam":"MSV/Zeemacht","postcode":"1785BC","vestpl":"Den
+        Helder","nr":"4188"},{"adres":"Windhaak 55","shirt":"Rood","plaats":"Nieuwkoop","web":"http://www.novostars.nl/","org_id":"6","id":"425","naam":"Novo
+        Stars","postcode":"2421NE","vestpl":"Nieuwkoop","nr":"4165"},{"adres":"Mississippistraat
+        4","shirt":"Licht Blauw","plaats":"Purmerend","web":"http://oldbirds.com/","org_id":"6","id":"378","naam":"Old
+        Birds","postcode":"1448XA","vestpl":"Purmerend","nr":"4118"},{"adres":"Postbus
+        36427 ","shirt":"Rood","plaats":"Amsterdam","web":"http://onlyfriends.nl/","org_id":"6","id":"903","naam":"Only
+        Friends","postcode":"1020MK","vestpl":"Amsterdam","nr":"4206"},{"adres":"Billitonstraat
+        4","shirt":"Zwart","plaats":"Haarlem","web":"http://www.ogbasketball.nl","org_id":"6","id":"402","naam":"Onze
+        Gezellen","postcode":"2022ZH","vestpl":"Haarlem","nr":"4142"},{"adres":"Laan
+        van Archeologie 9","shirt":"Rood","plaats":"Beverwijk","web":"http://www.racingbeverwijk.nl/","org_id":"6","id":"377","naam":"Racing
+        Beverwijk","postcode":"1948CH","vestpl":"Beverwijk","nr":"4117"},{"adres":"J.
+        v.d. Benstraat 8","shirt":"Rood","plaats":"Schagen","web":"http://www.rebound84.nl/","org_id":"6","id":"429","naam":"Rebound
+        ''84","postcode":"1742SE","vestpl":"Schagen","nr":"4169"},{"adres":"Essenlaan
+        151","shirt":"Geel/blauw","plaats":"Zwanenburg","web":"http://www.svchristofoor.nl/","org_id":"6","id":"907","naam":"SV
+        Christofoor","postcode":"1161ED","vestpl":"Zwanenburg","nr":"4207"},{"adres":"Uilenstede
+        100","shirt":"Blauw","plaats":"Amstelveen","web":"http://www.svubasketbal.nl/","org_id":"6","id":"521","naam":"SVU
+        Basketbal","postcode":"1183AM","vestpl":"Amstelveen","nr":"4200"},{"adres":"Brandenburg
+        9","shirt":"bruinrood","plaats":"Hoofddorp","web":"http://www.challengers.nl/","org_id":"6","id":"382","naam":"The
+        Challengers","postcode":"2135CJ","vestpl":"Hoofddorp","nr":"4122"},{"adres":"Secretaris
+        Bosmanstraat 26","shirt":"Geel/blauw","plaats":"Zandvoort","web":"http://www.thelions.nl/","org_id":"6","id":"418","naam":"The
+        Lions","postcode":"2041KT","vestpl":"Zandvoort","nr":"4158"},{"adres":"De
+        Weteringsbrugmolen 124","shirt":"Zwart","plaats":"Amstelveen","web":null,"org_id":"6","id":"430","naam":"The
+        Reds","postcode":"1188 HC","vestpl":"Amstelveen","nr":"4170"},{"adres":"Mient
+        85","shirt":"Geel","plaats":"Castricum","web":"http://www.seadevils.nl/","org_id":"6","id":"432","naam":"The
+        Sea Devils","postcode":"1901AD","vestpl":"Castricum","nr":"4172"},{"adres":"Tweede
+        Boerhaavestraat 10","shirt":"Zwart","plaats":"Amsterdam","web":"http://www.usbasketball.nl/","org_id":"6","id":"441","naam":"U.S.","postcode":"1091AN","vestpl":"Amsterdam","nr":"4181"},{"adres":"Lindenstraat
+        32","shirt":"Blauw/gele bies","plaats":"IJmuiden","web":"http://www.akrides.nl/","org_id":"6","id":"366","naam":"VBC
+        Akrides","postcode":"1971JP","vestpl":"Velsen","nr":"4105"},{"adres":"Helena
+        Smitsstraat 60","shirt":"Oranje","plaats":"Volendam","web":"http://www.basketbalvolendam.nl/","org_id":"6","id":"389","naam":"Volendam","postcode":"1132CM","vestpl":"Volendam","nr":"4129"},{"adres":"Zuiderweg
+        28-B","shirt":"Licht Blauw","plaats":"Wijdewormer","web":"http://waterlandbasketball.nl/","org_id":"6","id":"508","naam":"Waterland
+        Basketball","postcode":"1456ND","vestpl":"Purmerend","nr":"4201"},{"adres":"Noorderven
+        47","shirt":"Rood","plaats":"Zaandam","web":"http://www.thewindmills.nl/","org_id":"6","id":"445","naam":"Windmills","postcode":"1504AL","vestpl":"Zaandam","nr":"4185"},{"adres":"Breedstraat
+        12","shirt":"Wit","plaats":"Medemblik","web":"http://www.bv-wiringherlant.nl/","org_id":"6","id":"455","naam":"Wiringherlant","postcode":"1671CB","vestpl":"wieringerwerf","nr":"4195"},{"adres":"Lakenkopersweg
+        138","shirt":"Donker Blauw","plaats":"Weesp","web":"http://www.weespbasketbal.nl/","org_id":"6","id":"447","naam":"WVGV","postcode":"1383
+        CT","vestpl":"Weesp","nr":"4187"}]}'
+    http_version: 
+  recorded_at: Mon, 28 Dec 2015 22:11:53 GMT
+recorded_with: VCR 3.0.1

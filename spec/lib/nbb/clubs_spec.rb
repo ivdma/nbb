@@ -19,5 +19,13 @@ describe Nbb::Clubs do
         expect(clubs.map(&:naam)).to include 'BV Penta'
       end
     end
+
+    it 'returns a subset of clubs based on organization_id' do
+      VCR.use_cassette :clubs_2015_2016_suborg do
+        clubs = described_class.all organization_id: 6
+        expect(clubs.length).to eq 63
+        expect(clubs.map(&:naam)).to include 'Windmills'
+      end
+    end
   end
 end
