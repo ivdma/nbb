@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  gem "codeclimate-test-reporter", '~> 0.4'
+  gem "codeclimate-test-reporter", '~> 0.4', require: nil
 end
