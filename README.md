@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/ivdma/nbb.svg?style=svg)](https://circleci.com/gh/ivdma/nbb)
+
 # NBB
 
 This Ruby gem parses
