@@ -30,6 +30,8 @@ This gem provides access to read-only methods API endpoints and needs no authent
 
 ### Clubs
 
+Get all registered clubs in NBB.
+
 ```ruby
 NBB.clubs(options)
 ```
@@ -51,9 +53,37 @@ NBB.clubs(options)
 ]
 ```
 
-`options` is a hash that accepts the following methods:
+`NBB.clubs` accepts `options` hash with the following keys:
 
-  - `org_ID` (or `organization_id`) which scopes the results to local organization only.
+  - `organization_id` or `org_ID` (optional) which scopes the results to local organization only.
+
+### Teams
+
+Get club teams registered within NBB
+
+```ruby
+teams = NBB.teams club_id: 356
+```
+
+```ruby
+[
+  <Nbb::Models::Team:0x007fd3b5924cb8
+    @club_id="356",
+    @comp_id="2531",
+    @id="3587",
+    @naam="Dames 1">,
+  <Nbb::Models::Team:0x007fd3b59248a8
+    @club_id="356",
+    @comp_id="2386",
+    @id="9298",
+    @naam="Dames U20 1">,
+  ...
+]
+```
+
+`NBB.teams` accepts `options` hash with the following keys:
+
+  - `club_id` or `clb_ID` (**required**) is the ID of the club.
 
 ## Development
 

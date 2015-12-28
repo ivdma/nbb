@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Models::Club do
+describe Nbb::Models::Club do
 
   let(:valid_attributes) do
     {
@@ -18,7 +18,7 @@ describe Models::Club do
   end
 
   it 'is Models::Base' do
-    expect(described_class.new(id: '0')).to be_a Models::Club
+    expect(described_class.new(id: '0')).to be_a Nbb::Models::Club
   end
 
   describe 'initialization' do

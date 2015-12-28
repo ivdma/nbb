@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/team.pl?clb_ID=356
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Dec 2015 16:30:58 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"last_change":"2015-12-27 18:34:14","teams":[{"id":"3587","comp_id":"2531","naam":"Dames
+        1","club_id":"356"},{"id":"9298","comp_id":"2386","naam":"Dames U20 1","club_id":"356"},{"id":"10357","comp_id":"2829","naam":"Dames
+        U22 1","club_id":"356"},{"id":"3145","comp_id":"2820","naam":"Heren 1","club_id":"356"},{"id":"3391","comp_id":"2526","naam":"Heren
+        2","club_id":"356"},{"id":"3686","comp_id":"2528","naam":"Heren 3","club_id":"356"},{"id":"3687","comp_id":"2527","naam":"Heren
+        4","club_id":"356"},{"id":"3746","comp_id":"2530","naam":"Heren 5","club_id":"356"},{"id":"8885","comp_id":"2835","naam":"Heren
+        U 20 1","club_id":"356"},{"id":"8929","comp_id":"1575","naam":"Heren U22 1","club_id":"356"},{"id":"3847","comp_id":"644","naam":"Jongens
+        U14 1","club_id":"356"},{"id":"3848","comp_id":"1700","naam":"Jongens U14
+        2","club_id":"356"},{"id":"3849","comp_id":"2711","naam":"Jongens U14 3","club_id":"356"},{"id":"3843","comp_id":"653","naam":"Jongens
+        U16 1","club_id":"356"},{"id":"3843","comp_id":"1702","naam":"Jongens U16
+        1","club_id":"356"},{"id":"3844","comp_id":"652","naam":"Jongens U16 2","club_id":"356"},{"id":"3146","comp_id":"1575","naam":"Jongens
+        U18 1","club_id":"356"},{"id":"3688","comp_id":"1702","naam":"Jongens U18
+        2","club_id":"356"},{"id":"3841","comp_id":"1704","naam":"Jongens U18 3","club_id":"356"},{"id":"9899","comp_id":"2286","naam":"Meisjes
+        U12 1","club_id":"356"},{"id":"9899","comp_id":"2600","naam":"Meisjes U12
+        1","club_id":"356"},{"id":"10256","comp_id":"1707","naam":"Meisjes U14 1","club_id":"356"},{"id":"10256","comp_id":"2320","naam":"Meisjes
+        U14 1","club_id":"356"},{"id":"10961","comp_id":"887","naam":"Meisjes U14
+        2","club_id":"356"},{"id":"10961","comp_id":"2321","naam":"Meisjes U14 2","club_id":"356"},{"id":"9898","comp_id":"1707","naam":"Meisjes
+        U16 1","club_id":"356"},{"id":"4774","comp_id":"887","naam":"Meisjes U16 2","club_id":"356"},{"id":"4774","comp_id":"2321","naam":"Meisjes
+        U16 2","club_id":"356"},{"id":"10280","comp_id":"1700","naam":"Mix U12 1","club_id":"356"},{"id":"10280","comp_id":"2591","naam":"Mix
+        U12 1","club_id":"356"},{"id":"10281","comp_id":"2592","naam":"Mix U12 2","club_id":"356"},{"id":"10281","comp_id":"2598","naam":"Mix
+        U12 2","club_id":"356"},{"id":"11036","comp_id":"2285","naam":"Mix U12 3","club_id":"356"},{"id":"11036","comp_id":"2599","naam":"Mix
+        U12 3","club_id":"356"},{"id":"11472","comp_id":"2286","naam":"Mix U12 4","club_id":"356"},{"id":"11472","comp_id":"2600","naam":"Mix
+        U12 4","club_id":"356"}],"version":"1.2","seizoen":"2015-2016"}'
+    http_version: 
+  recorded_at: Mon, 28 Dec 2015 16:30:58 GMT
+recorded_with: VCR 3.0.1

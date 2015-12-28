@@ -4,6 +4,7 @@ require 'active_support/core_ext/object/to_param'
 
 require 'nbb/models/base'
 require 'nbb/models/club'
+require 'nbb/models/team'
 
 require 'nbb/version'
 
@@ -27,7 +28,21 @@ module Nbb
     url = [url, params.to_param].join('?')
 
     response = HTTParty.get(url)
-    response['clubs'].map { |club| Models::Club.new(club) }
+    response['clubs'].map { |club| Nbb::Models::Club.new(club) }
+  end
+
+  def self.teams(options = {})
+    params = {}
+    club_id = options.delete(:clb_ID) || options.delete(:club_id)
+    raise ArgumentError, 'Missing `clb_ID` (or `club_id`) parameter.' unless club_id
+
+    params[:clb_ID] = club_id
+
+    url = [self.url, format, 'team.pl'].join('/')
+    url = [url, params.to_param].join('?')
+
+    response = HTTParty.get(url)
+    response['teams'].map { |team| Nbb::Models::Team.new(team) }
   end
 end
 

@@ -28,4 +28,24 @@ describe Nbb do
       end
     end
   end
+
+  describe '::teams' do
+    it 'responds to ::teams' do
+      expect(described_class).to respond_to :teams
+    end
+
+    it 'requires clb_ID or club_id in params' do
+      expect do
+        described_class.teams
+      end.to raise_error ArgumentError, 'Missing `clb_ID` (or `club_id`) parameter.'
+    end
+
+    it 'returns teams based on club_id' do
+      VCR.use_cassette :teams_celeritas_2015_2016 do
+        teams = described_class.teams(club_id: 356)
+        expect(teams.length).to eq 36
+        expect(teams.map(&:naam)).to include 'Heren 5'
+      end
+    end
+  end
 end
