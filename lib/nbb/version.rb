@@ -1,3 +1,7 @@
 module Nbb
-  VERSION = "0.1.0"
+  MAJOR = 0
+  MINOR = 1
+  TINY  = 0
+
+  VERSION = [MAJOR, MINOR, TINY].join('.')
 end
