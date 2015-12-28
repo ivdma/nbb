@@ -27,5 +27,13 @@ describe Nbb::Clubs do
         expect(clubs.map(&:naam)).to include 'Windmills'
       end
     end
+
+    it 'returns clubs updated after date' do
+      VCR.use_cassette :clubs_2015_2016_date do
+        clubs = described_class.all date: '2015-12-28 18:30:00'
+        expect(clubs.length).to eq 1
+        expect(clubs.first.naam).to eq 'Green Eagles'
+      end
+    end
   end
 end
