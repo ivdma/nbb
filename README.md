@@ -1,5 +1,8 @@
 [![Circle CI](https://circleci.com/gh/ivdma/nbb.svg?style=svg)](https://circleci.com/gh/ivdma/nbb)
 [![Dependency Status](https://gemnasium.com/ivdma/nbb.svg)](https://gemnasium.com/ivdma/nbb)
+[![Code Climate](https://codeclimate.com/github/ivdma/nbb/badges/gpa.svg)](https://codeclimate.com/github/ivdma/nbb)
+[![Test Coverage](https://codeclimate.com/github/ivdma/nbb/badges/coverage.svg)](https://codeclimate.com/github/ivdma/nbb/coverage)
+[![Issue Count](https://codeclimate.com/github/ivdma/nbb/badges/issue_count.svg)](https://codeclimate.com/github/ivdma/nbb)
 
 # NBB
 
