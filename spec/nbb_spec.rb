@@ -34,6 +34,22 @@ describe Nbb do
     end
   end
 
+  describe '::club' do
+    it 'calls NBB::Clubs.find' do
+      VCR.use_cassette :clubs_2015_2016 do
+        expect(Nbb::Clubs).to receive(:find).with(356).once
+        described_class.club 356
+      end
+    end
+
+    it 'returns one club' do
+      VCR.use_cassette :clubs_2015_2016 do
+        club = described_class.club(356)
+        expect(club.name).to eq 'Celeritas-Donar'
+      end
+    end
+  end
+
   describe '::competitions' do
     it 'calls Nbb::Competitions.all' do
       expect(Nbb::Competitions).to receive(:all).with({}).once

@@ -36,4 +36,13 @@ describe Nbb::Clubs do
       end
     end
   end
+
+  describe '::find' do
+    it 'returns single club from list of clubs based on id' do
+      VCR.use_cassette :clubs_2015_2016 do
+        club = described_class.find 356
+        expect(club.naam).to eq 'Celeritas-Donar'
+      end
+    end
+  end
 end

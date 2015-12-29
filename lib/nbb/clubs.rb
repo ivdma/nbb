@@ -15,7 +15,11 @@ module Nbb
       clubs query_string
     end
 
-    def self.clubs(query_string)
+    def self.find(id)
+      clubs.find { |club| club.id == id.to_s }
+    end
+
+    def self.clubs(query_string = {})
       response(query_string)['clubs'].map { |club| Nbb::Models::Club.new(club) }
     end
   end

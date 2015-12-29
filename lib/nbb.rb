@@ -18,6 +18,10 @@ module Nbb
     @clubs ||= Nbb::Clubs.all(params)
   end
 
+  def self.club(id)
+    @club ||= Nbb::Clubs.find(id)
+  end
+
   def self.competitions(params = {})
     @competitions ||= Nbb::Competitions.all(params)
   end
