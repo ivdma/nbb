@@ -138,6 +138,15 @@ teams = NBB.teams club_id: 356
 
   - `club_id` or `clb_ID` (**required**) is the ID of the club.
 
+## Roadmap
+
+- Implement Positions (standen)
+- Implement Matches (schema/uitslagen)
+- Implement Locations (sporthallen)
+- Implement Stats (statistieken)
+- Implement different search filters
+- Implement custom search methods (for example something like club.teams.find_by_id(1))
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can
