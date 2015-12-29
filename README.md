@@ -43,17 +43,17 @@ NBB.clubs(options)
 
 ```ruby
 [
-  <NBB::Models::Club:0x007fb8a1043678
-    @adres="Ouderkerkerdijk 150",
-    @id="372",
-    @naam="A.P.G.S.",
-    @nr="4112",
-    @org_id="6",
-    @plaats="Amsterdam",
-    @postcode="1096CR",
-    @shirt="Rood",
-    @vestpl="Amsterdam",
-    @web="http://www.apgs-amsterdam.nl/">,
+  <Nbb::Models::Club:0x007f986bf31af0
+    @adres="Bloemstraat 32-b",
+    @id="356",
+    @naam="Celeritas-Donar",
+    @nr="5142",
+    @org_id="5",
+    @plaats="Groningen",
+    @postcode="9712LE",
+    @shirt="Geel",
+    @vestpl="Groningen",
+    @web="http://www.celeritasdonar.nl/">,
   # ...
 ]
 ```
@@ -61,6 +61,28 @@ NBB.clubs(options)
 `NBB.clubs` accepts `options` hash with the following keys:
 
   - `organization_id` or `org_ID` (optional) which scopes the results to local organization only.
+
+### Club
+
+Get a single registered club based on it's id.
+
+```ruby
+NBB.club(356)
+```
+
+```ruby
+<Nbb::Models::Club:0x007f986bf31af0
+  @adres="Bloemstraat 32-b",
+  @id="356",
+  @naam="Celeritas-Donar",
+  @nr="5142",
+  @org_id="5",
+  @plaats="Groningen",
+  @postcode="9712LE",
+  @shirt="Geel",
+  @vestpl="Groningen",
+  @web="http://www.celeritasdonar.nl/">
+```
 
 ### Competitions
 
