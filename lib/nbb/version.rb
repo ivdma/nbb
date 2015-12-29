@@ -1,7 +1,7 @@
 module Nbb
   MAJOR = 0
-  MINOR = 1
-  TINY  = 3
+  MINOR = 2
+  TINY  = 0
 
   VERSION = [MAJOR, MINOR, TINY].join('.')
 end
