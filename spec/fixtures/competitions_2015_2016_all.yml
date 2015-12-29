@@ -1,0 +1,647 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/competities.pl
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Dec 2015 23:52:28 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"competities":[{"org_id":"5","id":"644","gewijzigd":"2015-12-20 16:36:34","naam":"Nrd
+        Mannen U14 1","nr":"NM14-1"},{"org_id":"5","id":"1700","gewijzigd":"2015-12-19
+        23:06:29","naam":"Nrd Mannen U14 2","nr":"NM14-2"},{"org_id":"5","id":"2710","gewijzigd":"2015-12-20
+        14:14:10","naam":"Nrd Mannen U14 3A","nr":"NM143A"},{"org_id":"5","id":"2711","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U14 3B","nr":"NM143B"},{"org_id":"5","id":"653","gewijzigd":"2015-12-20
+        22:14:54","naam":"Nrd Mannen U16 1","nr":"NM16-1"},{"org_id":"5","id":"654","gewijzigd":"2015-12-20
+        22:15:33","naam":"Nrd Mannen U16 2A","nr":"NM162A"},{"org_id":"5","id":"652","gewijzigd":"2015-12-12
+        21:21:41","naam":"Nrd Mannen U16 2B","nr":"NM162B"},{"org_id":"5","id":"1222","gewijzigd":"2015-12-21
+        08:21:05","naam":"Nrd Mannen U16 3A","nr":"NM163A"},{"org_id":"5","id":"1223","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U16 3B","nr":"NM163B"},{"org_id":"5","id":"1702","gewijzigd":"2015-12-19
+        22:59:19","naam":"Nrd Mannen U18 1","nr":"NM18-1"},{"org_id":"5","id":"1703","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U18 2","nr":"NM18-2"},{"org_id":"5","id":"1704","gewijzigd":"2015-12-19
+        23:01:02","naam":"Nrd Mannen U18 3","nr":"NM18-3"},{"org_id":"5","id":"1575","gewijzigd":"2015-12-20
+        09:25:24","naam":"Nrd Mannen U22 + U20","nr":"NM22"},{"org_id":"5","id":"2526","gewijzigd":"2015-12-20
+        09:50:45","naam":"Nrd Mannen Senioren 1","nr":"NMS-1"},{"org_id":"5","id":"2527","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 2A","nr":"NMS-2A"},{"org_id":"5","id":"2528","gewijzigd":"2015-12-20
+        16:37:28","naam":"Nrd Mannen Senioren 2B","nr":"NMS-2B"},{"org_id":"5","id":"2529","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 3A","nr":"NMS-3A"},{"org_id":"5","id":"2530","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 3B","nr":"NMS-3B"},{"org_id":"5","id":"887","gewijzigd":"2015-12-20
+        11:12:23","naam":"Nrd Vrouwen U16 + U14","nr":"NV16"},{"org_id":"5","id":"2320","gewijzigd":"2015-11-01
+        14:41:43","naam":"Nrd Vrouwen U16 + U14 1","nr":"NV16-1"},{"org_id":"5","id":"2321","gewijzigd":"2015-11-01
+        18:34:09","naam":"Nrd Vrouwen U16 + U14 2","nr":"NV16-2"},{"org_id":"5","id":"1707","gewijzigd":"2015-12-20
+        16:36:58","naam":"Nrd Vrouwen U18 + U16","nr":"NV18"},{"org_id":"5","id":"2386","gewijzigd":"2015-12-21
+        08:20:45","naam":"Nrd Vrouwen U22 - U18","nr":"NV22"},{"org_id":"5","id":"2531","gewijzigd":"2015-12-20
+        09:25:33","naam":"Nrd Vrouwen Senioren 1","nr":"NVS-1"},{"org_id":"5","id":"2532","gewijzigd":"2015-12-20
+        13:02:16","naam":"Nrd Vrouwen Senioren 2","nr":"NVS-2"},{"org_id":"5","id":"2591","gewijzigd":"2015-12-19
+        17:16:57","naam":"Nrd miX U12 1e klasse","nr":"NX12-1"},{"org_id":"5","id":"2598","gewijzigd":"2015-12-20
+        09:26:09","naam":"Nrd miX U12 2e klasse","nr":"NX12-2"},{"org_id":"5","id":"2285","gewijzigd":"2015-12-20
+        00:12:42","naam":"Nrd miX U12 3e klasse","nr":"NX12-3"},{"org_id":"5","id":"2286","gewijzigd":"2015-12-20
+        16:34:58","naam":"Nrd miX U12 4e klasse","nr":"NX12-4"},{"org_id":"5","id":"2712","gewijzigd":"2015-12-20
+        22:15:11","naam":"Nrd miX U12 Friesland","nr":"NX12-F"},{"org_id":"5","id":"2592","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 1e klasse B","nr":"NX121B"},{"org_id":"5","id":"2599","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 2e klasse B","nr":"NX122B"},{"org_id":"5","id":"2662","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 3e klasse B","nr":"NX123B"},{"org_id":"5","id":"2600","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 4e klasse B","nr":"NX124B"},{"org_id":"5","id":"648","gewijzigd":"2015-12-19
+        18:34:26","naam":"Nrd miX U12 Friesland 1","nr":"NX12F1"},{"org_id":"5","id":"2987","gewijzigd":"2015-12-19
+        18:34:26","naam":"Nrd miX U12 Friesland 2","nr":"NX12F2"},{"org_id":"6","id":"2353","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Dames U18-U22 1e klasse A","nr":"HD221A"},{"org_id":"6","id":"2354","gewijzigd":"2015-12-21
+        11:04:12","naam":"Noord-Holland Afdeling Dames U18-U22 2e klasse A","nr":"HD222A"},{"org_id":"6","id":"2452","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Dames U18-U22 A klasse","nr":"HD22A"},{"org_id":"6","id":"2453","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Dames U18-U22 B klasse","nr":"HD22B"},{"org_id":"6","id":"2454","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Dames U18-U22 C klasse","nr":"HD22C"},{"org_id":"6","id":"668","gewijzigd":"2015-12-21
+        18:34:17","naam":"Noord-Holland Afdeling Dames Senioren 1e klasse A","nr":"HDS1A"},{"org_id":"6","id":"2391","gewijzigd":"2015-12-23
+        18:34:09","naam":"Noord-Holland Afdeling Dames Senioren 2e klasse A","nr":"HDS2A"},{"org_id":"6","id":"2583","gewijzigd":"2015-12-23
+        17:27:24","naam":"Noord-Holland Afdeling Dames Senioren 3e klasse A","nr":"HDS3A"},{"org_id":"6","id":"2393","gewijzigd":"2015-12-20
+        19:43:38","naam":"Noord-Holland Afdeling Dames Senioren 3e klasse B","nr":"HDS3B"},{"org_id":"6","id":"2772","gewijzigd":"2015-12-21
+        16:18:39","naam":"Noord-Holland Afdeling Heren U18-U22 1e klasse A","nr":"HH221A"},{"org_id":"6","id":"2773","gewijzigd":"2015-12-20
+        19:43:16","naam":"Noord-Holland Afdeling Heren U18-U22 2e klasse A","nr":"HH222A"},{"org_id":"6","id":"2774","gewijzigd":"2015-12-21
+        10:21:36","naam":"Noord-Holland Afdeling Heren U18-U22 3e klasse A","nr":"HH223A"},{"org_id":"6","id":"2775","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Heren U18-U22 4e klasse A","nr":"HH224A"},{"org_id":"6","id":"2776","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Heren U18-U22 5e klasse A","nr":"HH225A"},{"org_id":"6","id":"2945","gewijzigd":"2015-12-21
+        06:04:00","naam":"Noord-Holland Afdeling Heren U18-U22 6e klasse A","nr":"HH226A"},{"org_id":"6","id":"2777","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 A klasse","nr":"HH22A"},{"org_id":"6","id":"2778","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Heren U18-U22 B klasse","nr":"HH22B"},{"org_id":"6","id":"2779","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 C klasse","nr":"HH22C"},{"org_id":"6","id":"2780","gewijzigd":"2015-12-24
+        18:34:13","naam":"Noord-Holland Afdeling Heren U18-U22 D klasse","nr":"HH22D"},{"org_id":"6","id":"2781","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Heren U18-U22 E klasse","nr":"HH22E"},{"org_id":"6","id":"2891","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 F klasse","nr":"HH22F"},{"org_id":"6","id":"2892","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 G klasse","nr":"HH22G"},{"org_id":"6","id":"2893","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 H klasse","nr":"HH22H"},{"org_id":"6","id":"2894","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 I klasse","nr":"HH22I"},{"org_id":"6","id":"2895","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 J klasse","nr":"HH22J"},{"org_id":"6","id":"2970","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Heren U18-U22 K klasse","nr":"HH22K"},{"org_id":"6","id":"667","gewijzigd":"2015-12-24
+        18:34:13","naam":"Noord-Holland Afdeling Heren Senioren 1e klasse A","nr":"HHS1A"},{"org_id":"6","id":"669","gewijzigd":"2015-12-22
+        18:34:17","naam":"Noord-Holland Afdeling Heren Senioren 2e klasse A","nr":"HHS2A"},{"org_id":"6","id":"659","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Heren Senioren 2e klasse B","nr":"HHS2B"},{"org_id":"6","id":"736","gewijzigd":"2015-12-23
+        18:34:09","naam":"Noord-Holland Afdeling Heren Senioren 3e klasse A","nr":"HHS3A"},{"org_id":"6","id":"660","gewijzigd":"2015-12-19
+        22:34:55","naam":"Noord-Holland Afdeling Heren Senioren 3e klasse B","nr":"HHS3B"},{"org_id":"6","id":"2141","gewijzigd":"2015-12-20
+        10:11:47","naam":"Noord-Holland Afdeling Heren Senioren 4e klasse A","nr":"HHS4A"},{"org_id":"6","id":"679","gewijzigd":"2015-12-21
+        10:21:15","naam":"Noord-Holland Afdeling Heren Senioren 4e klasse B","nr":"HHS4B"},{"org_id":"6","id":"661","gewijzigd":"2015-12-23
+        18:34:09","naam":"Noord-Holland Afdeling Heren Senioren 4e klasse C","nr":"HHS4C"},{"org_id":"6","id":"710","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Heren Senioren 5e klasse A","nr":"HHS5A"},{"org_id":"6","id":"2048","gewijzigd":"2015-12-21
+        10:20:31","naam":"Noord-Holland Afdeling Jongens U14 1e klasse A","nr":"HJ141A"},{"org_id":"6","id":"2049","gewijzigd":"2015-12-20
+        19:46:22","naam":"Noord-Holland Afdeling Jongens U14 2e klasse A","nr":"HJ142A"},{"org_id":"6","id":"2060","gewijzigd":"2015-12-21
+        20:01:00","naam":"Noord-Holland Afdeling Jongens U14 3e klasse A","nr":"HJ143A"},{"org_id":"6","id":"1952","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Jongens U14 4e klasse A","nr":"HJ144A"},{"org_id":"6","id":"1953","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Jongens U14 5e klasse A","nr":"HJ145A"},{"org_id":"6","id":"1954","gewijzigd":"2015-12-21
+        18:34:17","naam":"Noord-Holland Afdeling Jongens U14 6e klasse A","nr":"HJ146A"},{"org_id":"6","id":"798","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U14 A klasse","nr":"HJ14A"},{"org_id":"6","id":"2198","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Jongens U14 B klasse","nr":"HJ14B"},{"org_id":"6","id":"2199","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U14 C klasse","nr":"HJ14C"},{"org_id":"6","id":"2200","gewijzigd":"2015-12-21
+        18:34:17","naam":"Noord-Holland Afdeling Jongens U14 D klasse","nr":"HJ14D"},{"org_id":"6","id":"2201","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U14 E klasse","nr":"HJ14E"},{"org_id":"6","id":"2202","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U14 F klasse","nr":"HJ14F"},{"org_id":"6","id":"2203","gewijzigd":"2015-12-24
+        18:34:13","naam":"Noord-Holland Afdeling Jongens U14 G klasse","nr":"HJ14G"},{"org_id":"6","id":"2204","gewijzigd":"2015-12-16
+        18:34:19","naam":"Noord-Holland Afdeling Jongens U14 H klasse","nr":"HJ14H"},{"org_id":"6","id":"2205","gewijzigd":"2015-12-16
+        18:34:19","naam":"Noord-Holland Afdeling Jongens U14 I klasse","nr":"HJ14I"},{"org_id":"6","id":"2605","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Jongens U14 J klasse","nr":"HJ14J"},{"org_id":"6","id":"2606","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U14 K klasse","nr":"HJ14K"},{"org_id":"6","id":"2050","gewijzigd":"2015-12-21
+        10:21:03","naam":"Noord-Holland Afdeling Jongens U16 1e klasse A","nr":"HJ161A"},{"org_id":"6","id":"2051","gewijzigd":"2015-12-20
+        19:45:56","naam":"Noord-Holland Afdeling Jongens U16 2e klasse A","nr":"HJ162A"},{"org_id":"6","id":"2052","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Jongens U16 3e klasse A","nr":"HJ163A"},{"org_id":"6","id":"2009","gewijzigd":"2015-12-21
+        16:18:16","naam":"Noord-Holland Afdeling Jongens U16 4e klasse A","nr":"HJ164A"},{"org_id":"6","id":"1962","gewijzigd":"2015-12-20
+        19:42:55","naam":"Noord-Holland Afdeling Jongens U16 5e klasse A","nr":"HJ165A"},{"org_id":"6","id":"1963","gewijzigd":"2015-12-21
+        20:10:10","naam":"Noord-Holland Afdeling Jongens U16 6e klasse A","nr":"HJ166A"},{"org_id":"6","id":"2033","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 A klasse","nr":"HJ16A"},{"org_id":"6","id":"2034","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 B klasse","nr":"HJ16B"},{"org_id":"6","id":"687","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 C klasse","nr":"HJ16C"},{"org_id":"6","id":"1925","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Jongens U16 D klasse","nr":"HJ16D"},{"org_id":"6","id":"2065","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 E klasse","nr":"HJ16E"},{"org_id":"6","id":"2219","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 F klasse","nr":"HJ16F"},{"org_id":"6","id":"2220","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Jongens U16 G klasse","nr":"HJ16G"},{"org_id":"6","id":"2221","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 H klasse","nr":"HJ16H"},{"org_id":"6","id":"2222","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Jongens U16 I klasse","nr":"HJ16I"},{"org_id":"6","id":"2784","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 J klasse","nr":"HJ16J"},{"org_id":"6","id":"2064","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Jongens U16 K klasse","nr":"HJ16K"},{"org_id":"6","id":"713","gewijzigd":"2015-12-21
+        10:20:48","naam":"Noord-Holland Afdeling Meisjes U14-U16 1e klasse A","nr":"HM161A"},{"org_id":"6","id":"799","gewijzigd":"2015-12-20
+        21:20:19","naam":"Noord-Holland Afdeling Meisjes U14-U16 2e klasse A","nr":"HM162A"},{"org_id":"6","id":"2066","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Meisjes U14-U16 A klasse","nr":"HM16A"},{"org_id":"6","id":"2223","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Meisjes U14-U16 B klasse","nr":"HM16B"},{"org_id":"6","id":"2224","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Meisjes U14-U16 C klasse","nr":"HM16C"},{"org_id":"6","id":"733","gewijzigd":"2015-12-20
+        19:46:09","naam":"Noord-Holland Afdeling Gemengd U12 1e klasse A","nr":"HX121A"},{"org_id":"6","id":"749","gewijzigd":"2015-12-21
+        10:19:46","naam":"Noord-Holland Afdeling Gemengd U12 2e klasse A","nr":"HX122A"},{"org_id":"6","id":"2021","gewijzigd":"2015-12-20
+        17:37:05","naam":"Noord-Holland Afdeling Gemengd U12 3e klasse A","nr":"HX123A"},{"org_id":"6","id":"1998","gewijzigd":"2015-12-20
+        21:19:21","naam":"Noord-Holland Afdeling Gemengd U12 4e klasse A","nr":"HX124A"},{"org_id":"6","id":"1935","gewijzigd":"2015-12-20
+        17:26:40","naam":"Noord-Holland Afdeling Gemengd U12 5e klasse A","nr":"HX125A"},{"org_id":"6","id":"2946","gewijzigd":"2015-12-20
+        18:34:14","naam":"Noord-Holland Afdeling Gemengd U12 6e klasse A","nr":"HX126A"},{"org_id":"6","id":"728","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Gemengd U12 A klasse","nr":"HX12A"},{"org_id":"6","id":"729","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Gemengd U12 B klasse","nr":"HX12B"},{"org_id":"6","id":"2215","gewijzigd":"2015-12-21
+        18:34:17","naam":"Noord-Holland Afdeling Gemengd U12 C klasse","nr":"HX12C"},{"org_id":"6","id":"714","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Gemengd U12 D klasse","nr":"HX12D"},{"org_id":"6","id":"1996","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Gemengd U12 E klasse","nr":"HX12E"},{"org_id":"6","id":"1997","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Gemengd U12 F klasse","nr":"HX12F"},{"org_id":"6","id":"2037","gewijzigd":"2015-12-18
+        18:34:20","naam":"Noord-Holland Afdeling Gemengd U12 G klasse","nr":"HX12G"},{"org_id":"6","id":"2019","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Gemengd U12 H klasse","nr":"HX12H"},{"org_id":"6","id":"2020","gewijzigd":"2015-12-17
+        18:34:21","naam":"Noord-Holland Afdeling Gemengd U12 I klasse","nr":"HX12I"},{"org_id":"6","id":"1934","gewijzigd":"2015-12-21
+        18:34:17","naam":"Noord-Holland Afdeling Gemengd U12 J klasse","nr":"HX12J"},{"org_id":"6","id":"2070","gewijzigd":"2015-12-18
+        19:44:20","naam":"Noord-Holland Afdeling Gemengd U12 K klasse","nr":"HX12K"},{"org_id":"3","id":"420","gewijzigd":"2015-12-20
+        14:17:48","naam":"Oost Afdeling Vrouwen U20/U18 2e klasse  A/B/C","nr":"OD202A"},{"org_id":"3","id":"380","gewijzigd":"2015-12-24
+        18:33:46","naam":"Oost Afdeling Vrouwen Senioren 1e klasse A","nr":"ODS1A"},{"org_id":"3","id":"382","gewijzigd":"2015-12-24
+        18:33:46","naam":"Oost Afdeling Vrouwen Senioren 2e klasse A","nr":"ODS2A"},{"org_id":"3","id":"383","gewijzigd":"2015-12-19
+        22:22:37","naam":"Oost Afdeling Vrouwen Senioren 2e klasse B","nr":"ODS2B"},{"org_id":"3","id":"381","gewijzigd":"2015-12-16
+        18:33:51","naam":"Oost Afdeling Vrouwen Senioren 2e klasse C","nr":"ODS2C"},{"org_id":"3","id":"2845","gewijzigd":"2015-12-24
+        18:33:46","naam":"Oost Afdeling Mannen U20 2e klasse A","nr":"OH202A"},{"org_id":"3","id":"2846","gewijzigd":"2015-12-20
+        18:33:46","naam":"Oost Afdeling Mannen U20 2e klasse B/C","nr":"OH202B"},{"org_id":"3","id":"367","gewijzigd":"2015-12-23
+        18:33:42","naam":"Oost Afdeling Mannen Senioren 1e klasse A","nr":"OHS1A"},{"org_id":"3","id":"368","gewijzigd":"2015-12-20
+        19:49:12","naam":"Oost Afdeling Mannen Senioren 1e klasse B","nr":"OHS1B"},{"org_id":"3","id":"372","gewijzigd":"2015-12-19
+        18:33:42","naam":"Oost Afdeling Mannen Senioren 2e klasse A","nr":"OHS2A"},{"org_id":"3","id":"2298","gewijzigd":"2015-12-20
+        18:33:46","naam":"Oost Afdeling Mannen Senioren 2e klasse B","nr":"OHS2B"},{"org_id":"3","id":"373","gewijzigd":"2015-12-20
+        18:42:32","naam":"Oost Afdeling Mannen Senioren 2e klasse C","nr":"OHS2C"},{"org_id":"3","id":"623","gewijzigd":"2015-12-23
+        18:33:42","naam":"Oost Afdeling Mannen Senioren 2e klasse E","nr":"OHS2E"},{"org_id":"3","id":"374","gewijzigd":"2015-12-20
+        18:53:54","naam":"Oost Afdeling Mannen Senioren 2e klasse F","nr":"OHS2F"},{"org_id":"3","id":"2842","gewijzigd":"2015-12-21
+        18:33:49","naam":"Oost Afdeling Mannen Senioren 3e klasse A","nr":"OHS3A"},{"org_id":"3","id":"2843","gewijzigd":"2015-12-20
+        18:33:46","naam":"Oost Afdeling Mannen Senioren 3e klasse B","nr":"OHS3B"},{"org_id":"3","id":"2844","gewijzigd":"2015-12-20
+        13:43:06","naam":"Oost Afdeling Mannen Senioren 3e klasse C","nr":"OHS3C"},{"org_id":"3","id":"415","gewijzigd":"2015-12-20
+        18:54:41","naam":"Oost Afdeling Mannen en Vrouwen U12 1e klasse B/C","nr":"OJ121B"},{"org_id":"3","id":"1299","gewijzigd":"2015-12-21
+        18:33:49","naam":"Oost Afdeling Mannen U12 2e klasse A","nr":"OJ122A"},{"org_id":"3","id":"1459","gewijzigd":"2015-12-21
+        18:33:49","naam":"Oost Afdeling Mannen en Vrouwen U12 2e klasse B","nr":"OJ122B"},{"org_id":"3","id":"2398","gewijzigd":"2015-12-20
+        01:14:51","naam":"Oost Afdeling Mannen en Vrouwen  U12 2e klasse C","nr":"OJ122C"},{"org_id":"3","id":"2701","gewijzigd":"2015-12-24
+        18:33:46","naam":"Oost Afdeling Mannen U12 3e klasse A","nr":"OJ123A"},{"org_id":"3","id":"2858","gewijzigd":"2015-12-20
+        17:13:21","naam":"Oost Afdeling Mannen en Vrouwen U12 3e klasse B","nr":"OJ123B"},{"org_id":"3","id":"2859","gewijzigd":"2015-12-20
+        18:55:12","naam":"Oost Afdeling Mannen en Vrouwen 3e klasse C","nr":"OJ123C"},{"org_id":"3","id":"404","gewijzigd":"2015-12-20
+        15:01:40","naam":"Oost Afdeling Mannen en Vrouwen  U14 1e klasse A","nr":"OJ141A"},{"org_id":"3","id":"407","gewijzigd":"2015-12-20
+        18:24:03","naam":"Oost Afdeling Mannen U14 2e klasse A","nr":"OJ142A"},{"org_id":"3","id":"409","gewijzigd":"2015-12-20
+        16:38:17","naam":"Oost Afdeling Mannen en Vrouwen U14 2e klasse B","nr":"OJ142B"},{"org_id":"3","id":"411","gewijzigd":"2015-12-21
+        18:33:49","naam":"Oost Afdeling Mannen U14 2e klasse C","nr":"OJ142C"},{"org_id":"3","id":"2113","gewijzigd":"2015-12-24
+        18:33:46","naam":"Oost Afdeling Mannen U14 3e klasse A","nr":"OJ143A"},{"org_id":"3","id":"2855","gewijzigd":"2015-12-20
+        18:44:04","naam":"Oost Afdeling Mannen en Vrouwen U14 3e klasse C","nr":"OJ143C"},{"org_id":"3","id":"1297","gewijzigd":"2015-12-20
+        19:45:04","naam":"Oost Afdeling Mannen U14 3e klasse D","nr":"OJ143D"},{"org_id":"3","id":"394","gewijzigd":"2015-12-20
+        11:12:52","naam":"Oost Afdeling Mannen U16 1e klasse A","nr":"OJ161A"},{"org_id":"3","id":"396","gewijzigd":"2015-12-21
+        18:33:49","naam":"Oost Afdeling Mannen U16 1e klasse B","nr":"OJ161B"},{"org_id":"3","id":"397","gewijzigd":"2015-12-23
+        18:33:42","naam":"Oost Afdeling Mannen U16 2e klasse A","nr":"OJ162A"},{"org_id":"3","id":"399","gewijzigd":"2015-12-20
+        15:02:51","naam":"Oost Afdeling Mannen U16 2e klasse C","nr":"OJ162C"},{"org_id":"3","id":"2700","gewijzigd":"2015-12-20
+        18:33:46","naam":"Oost Afdeling Mannen U16 2e klasse D","nr":"OJ162D"},{"org_id":"3","id":"2947","gewijzigd":"2015-12-20
+        19:46:38","naam":"Oost Afdeling Mannen U16 2e klasse E","nr":"OJ162E"},{"org_id":"3","id":"2848","gewijzigd":"2015-12-20
+        18:23:32","naam":"Oost Afdeling Mannen U18 1e klasse A","nr":"OJ181A"},{"org_id":"3","id":"2849","gewijzigd":"2015-12-20
+        18:55:28","naam":"Oost Afdeling Mannen U18 1e klasse B/C","nr":"OJ181B"},{"org_id":"3","id":"2300","gewijzigd":"2015-12-20
+        18:41:55","naam":"Oost Afdeling Mannen U18 2e klasse A","nr":"OJ182A"},{"org_id":"3","id":"1462","gewijzigd":"2015-12-20
+        14:41:04","naam":"Oost Afdeling Mannen U18 2e klasse B","nr":"OJ182B"},{"org_id":"3","id":"1458","gewijzigd":"2015-12-20
+        19:47:17","naam":"Oost Afdeling Mannen U18 2e klasse C","nr":"OJ182C"},{"org_id":"3","id":"2504","gewijzigd":"2015-12-25
+        18:33:45","naam":"Oost Afdeling Vrouwen U14 2e klasse A","nr":"OM142A"},{"org_id":"3","id":"2948","gewijzigd":"2015-12-25
+        18:33:45","naam":"Oost Afdeling Vrouwen U14 2e klasse c","nr":"OM142C"},{"org_id":"3","id":"401","gewijzigd":"2015-12-20
+        18:55:48","naam":"Oost Afdeling Vrouwen U16 1e klasse A/B/C","nr":"OM161A"},{"org_id":"3","id":"2853","gewijzigd":"2015-12-20
+        14:43:26","naam":"Oost Afdeling Vrouwen U16 2e klasse A/B/C","nr":"OM162A"},{"org_id":"3","id":"2851","gewijzigd":"2015-12-20
+        10:47:50","naam":"Oost Afdeling Vrouwen U18 2e klasse A/B/C","nr":"OM182A"},{"org_id":"2","id":"2974","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Afdeling Dames Under 20 2e kl. 2de helft","nr":"WD20"},{"org_id":"2","id":"1628","gewijzigd":"2015-12-14
+        18:33:17","naam":"West Afdeling D20/M18 1e kl. 2de helft","nr":"WD201"},{"org_id":"2","id":"2949","gewijzigd":"2015-12-19
+        18:25:20","naam":"West Dames Under 20 2e klasse A","nr":"WD202A"},{"org_id":"2","id":"1622","gewijzigd":"2015-12-11
+        12:43:08","naam":"West Afdeling Dames Under 22 2e kl. 2de helft","nr":"WD22"},{"org_id":"2","id":"1519","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Dames Under 22 2e klasse A","nr":"WD222A"},{"org_id":"2","id":"39","gewijzigd":"2015-12-18
+        22:47:35","naam":"WEST Afdeling Dames Senioren 1e klasse A","nr":"WDS1A"},{"org_id":"2","id":"40","gewijzigd":"2015-12-15
+        20:59:40","naam":"West Afdeling Dames Senioren 1e Klasse B","nr":"WDS1B"},{"org_id":"2","id":"353","gewijzigd":"2015-12-23
+        18:33:17","naam":"West Dames Senioren 2e klasse A","nr":"WDS2A"},{"org_id":"2","id":"354","gewijzigd":"2015-12-23
+        12:08:31","naam":"West Dames Senioren 2e klasse B","nr":"WDS2B"},{"org_id":"2","id":"847","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Dames Senioren 3e klasse A","nr":"WDS3A"},{"org_id":"2","id":"1252","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Dames Senioren 3e klasse B","nr":"WDS3B"},{"org_id":"2","id":"848","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Dames Senioren 3e klasse C","nr":"WDS3C"},{"org_id":"2","id":"2896","gewijzigd":"2015-12-11
+        12:40:45","naam":"West Heren under 20 2e.kl. A   2de helft","nr":"WH02A"},{"org_id":"2","id":"1524","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Heren Under 20 2e kl. B   2de helft","nr":"WH02B"},{"org_id":"2","id":"1624","gewijzigd":"2015-12-11
+        12:43:08","naam":"West Heren Under 20 3e kl. A   2de helft","nr":"WH03A"},{"org_id":"2","id":"2975","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Heren Under 20 3e kl. B   2de helft","nr":"WH03B"},{"org_id":"2","id":"2479","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Heren Under 20 2e klasse A","nr":"WH202A"},{"org_id":"2","id":"1482","gewijzigd":"2015-12-21
+        13:32:03","naam":"West Heren Under 20 2e klasse B","nr":"WH202B"},{"org_id":"2","id":"1481","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Heren Under 20 2e klasse C","nr":"WH202C"},{"org_id":"2","id":"1623","gewijzigd":"2015-12-21
+        16:52:55","naam":"West Heren Under 20 3e klasse A","nr":"WH203A"},{"org_id":"2","id":"1483","gewijzigd":"2015-12-20
+        08:59:26","naam":"West Heren Under 20 3e klasse B","nr":"WH203B"},{"org_id":"2","id":"1621","gewijzigd":"2015-12-18
+        18:33:28","naam":"West Afdeling Heren under 22 2.kl 2de helft","nr":"WH22"},{"org_id":"2","id":"1515","gewijzigd":"2015-12-23
+        18:33:17","naam":"West Heren Under 22 1e klasse A","nr":"WH221A"},{"org_id":"2","id":"1471","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Heren Under 22 2e klasse A","nr":"WH222A"},{"org_id":"2","id":"1177","gewijzigd":"2015-12-21
+        18:33:24","naam":"WEST Afdeling Heren Senioren 1e klasse A","nr":"WHS1A"},{"org_id":"2","id":"95","gewijzigd":"2015-12-23
+        18:33:17","naam":"WEST Afdeling Heren Senioren 1e klasse B","nr":"WHS1B"},{"org_id":"2","id":"815","gewijzigd":"2015-12-28
+        18:33:21","naam":"WEST Heren Senioren 2e klasse A","nr":"WHS2A"},{"org_id":"2","id":"816","gewijzigd":"2015-12-21
+        18:33:24","naam":"WEST Heren Senioren 2e klasse B","nr":"WHS2B"},{"org_id":"2","id":"817","gewijzigd":"2015-12-22
+        18:33:24","naam":"WEST Heren Senioren 2e klasse C","nr":"WHS2C"},{"org_id":"2","id":"818","gewijzigd":"2015-12-24
+        18:33:21","naam":"WEST Heren Senioren 2e klasse D","nr":"WHS2D"},{"org_id":"2","id":"833","gewijzigd":"2015-12-28
+        18:33:21","naam":"WEST Heren Senioren 3e klasse A","nr":"WHS3A"},{"org_id":"2","id":"834","gewijzigd":"2015-12-22
+        18:33:24","naam":"WEST Heren Senioren 3e klasse B","nr":"WHS3B"},{"org_id":"2","id":"835","gewijzigd":"2015-12-23
+        18:33:17","naam":"WEST Heren Senioren 3e klasse C","nr":"WHS3C"},{"org_id":"2","id":"836","gewijzigd":"2015-12-28
+        18:33:21","naam":"WEST Heren Senioren 3e klasse D","nr":"WHS3D"},{"org_id":"2","id":"1045","gewijzigd":"2015-12-24
+        18:33:21","naam":"WEST Heren Senioren 4e klasse A","nr":"WHS4A"},{"org_id":"2","id":"821","gewijzigd":"2015-12-21
+        18:33:24","naam":"WEST Heren Senioren 4e klasse B","nr":"WHS4B"},{"org_id":"2","id":"826","gewijzigd":"2015-12-28
+        18:33:21","naam":"WEST Heren Senioren 4e klasse C","nr":"WHS4C"},{"org_id":"2","id":"117","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Afdeling Jongens Under 14 1e klasse A","nr":"WJ141A"},{"org_id":"2","id":"120","gewijzigd":"2015-12-20
+        19:49:01","naam":"West Jongens Under 14 2e klasse A","nr":"WJ142A"},{"org_id":"2","id":"296","gewijzigd":"2015-12-14
+        15:54:09","naam":"West Jongens Under 14 2e klasse B","nr":"WJ142B"},{"org_id":"2","id":"180","gewijzigd":"2015-12-13
+        20:44:45","naam":"West Jongens Under 14 2e klasse C","nr":"WJ142C"},{"org_id":"2","id":"181","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Jongens Under 14 3e klasse A","nr":"WJ143A"},{"org_id":"2","id":"234","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 14 3e klasse B","nr":"WJ143B"},{"org_id":"2","id":"235","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Jongens Under 14 3e klasse C","nr":"WJ143C"},{"org_id":"2","id":"59","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 14 3e klasse D","nr":"WJ143D"},{"org_id":"2","id":"2106","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Jongens Under 14 3e klasse E","nr":"WJ143E"},{"org_id":"2","id":"2107","gewijzigd":"2015-12-20
+        14:53:55","naam":"West Jongens Under 14 3e klasse F","nr":"WJ143F"},{"org_id":"2","id":"236","gewijzigd":"2015-12-20
+        19:48:41","naam":"West Jongens Under 14 4e klasse A","nr":"WJ144A"},{"org_id":"2","id":"237","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Jongens Under 14 4e klasse B","nr":"WJ144B"},{"org_id":"2","id":"238","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Jongens Under 14 4e klasse C","nr":"WJ144C"},{"org_id":"2","id":"239","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 14 4e klasse D","nr":"WJ144D"},{"org_id":"2","id":"1663","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Jongens Under 14 4e klasse E","nr":"WJ144E"},{"org_id":"2","id":"864","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 14 5e klasse A","nr":"WJ145A"},{"org_id":"2","id":"865","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Jongens Under 14 5e klasse B","nr":"WJ145B"},{"org_id":"2","id":"60","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Jongens Under 14 5e klasse C","nr":"WJ145C"},{"org_id":"2","id":"111","gewijzigd":"2015-12-21
+        18:33:24","naam":"WEST Afdeling Jongens Under 16 1e klasse A","nr":"WJ161A"},{"org_id":"2","id":"114","gewijzigd":"2015-12-14
+        18:33:17","naam":"West Jongens Under 16 2e klasse A","nr":"WJ162A"},{"org_id":"2","id":"177","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Jongens Under 16 2e klasse B","nr":"WJ162B"},{"org_id":"2","id":"178","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Jongens Under 16 2e klasse C","nr":"WJ162C"},{"org_id":"2","id":"247","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 16 3e klasse A","nr":"WJ163A"},{"org_id":"2","id":"248","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Jongens Under 16 3e klasse B","nr":"WJ163B"},{"org_id":"2","id":"249","gewijzigd":"2015-12-14
+        18:33:17","naam":"West Jongens Under 16 3e klasse C","nr":"WJ163C"},{"org_id":"2","id":"858","gewijzigd":"2015-12-19
+        18:33:17","naam":"West Jongens Under 16 3e klasse D","nr":"WJ163D"},{"org_id":"2","id":"18","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Jongens Under 16 3e klasse E","nr":"WJ163E"},{"org_id":"2","id":"250","gewijzigd":"2015-12-19
+        19:26:21","naam":"West Jongens Under 16 4e klasse A","nr":"WJ164A"},{"org_id":"2","id":"251","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Jongens Under 16 4e klasse B","nr":"WJ164B"},{"org_id":"2","id":"252","gewijzigd":"2015-12-21
+        09:59:37","naam":"West Jongens Under 16 4e klasse C","nr":"WJ164C"},{"org_id":"2","id":"856","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Jongens Under 16 4e klasse D","nr":"WJ164D"},{"org_id":"2","id":"2105","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 16 4e klasse E","nr":"WJ164E"},{"org_id":"2","id":"2951","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Jongens Under 16 4e klasse F","nr":"WJ164F"},{"org_id":"2","id":"859","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Jongens Under 16 5e klasse A","nr":"WJ165A"},{"org_id":"2","id":"2861","gewijzigd":"2015-12-23
+        18:33:17","naam":"West Afdeling Jongens Under 18 1e Klasse A","nr":"WJ181A"},{"org_id":"2","id":"45","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Jongens Under 18 2e klasse A","nr":"WJ182A"},{"org_id":"2","id":"244","gewijzigd":"2015-12-13
+        20:32:16","naam":"West Jongens Under 18 2e klasse B","nr":"WJ182B"},{"org_id":"2","id":"850","gewijzigd":"2015-12-13
+        18:33:12","naam":"West Jongens Under 18 2e klasse C","nr":"WJ182C"},{"org_id":"2","id":"852","gewijzigd":"2015-12-13
+        11:23:46","naam":"West Jongens Under 18 3e klasse A","nr":"WJ183A"},{"org_id":"2","id":"853","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Jongens Under 18 3e klasse B","nr":"WJ183B"},{"org_id":"2","id":"851","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Jongens Under 18 3e klasse C","nr":"WJ183C"},{"org_id":"2","id":"854","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Jongens Under 18 3e klasse D","nr":"WJ183D"},{"org_id":"2","id":"1664","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Jongens Under 18 3e klasse E","nr":"WJ183E"},{"org_id":"2","id":"2104","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 18 3e klasse F","nr":"WJ183F"},{"org_id":"2","id":"175","gewijzigd":"2015-12-13
+        19:57:47","naam":"West Jongens Under 18 4e klasse A","nr":"WJ184A"},{"org_id":"2","id":"242","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Jongens Under 18 4e klasse B","nr":"WJ184B"},{"org_id":"2","id":"1219","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Jongens Under 18 4e klasse C","nr":"WJ184C"},{"org_id":"2","id":"2952","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Jongens Under 18 5e klasse A","nr":"WJ185A"},{"org_id":"2","id":"83","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Afdeling Jongens Under 14 1e klasse A","nr":"WJ41A"},{"org_id":"2","id":"295","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J14 2e helft 2e klasse A","nr":"WJ42A"},{"org_id":"2","id":"179","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 2e klasse B","nr":"WJ42B"},{"org_id":"2","id":"297","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J14 2e helft 2e klasse C","nr":"WJ42C"},{"org_id":"2","id":"298","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 3e klasse A","nr":"WJ43A"},{"org_id":"2","id":"356","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 3e klasse B","nr":"WJ43B"},{"org_id":"2","id":"1140","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J14 2e helft 3e klasse C","nr":"WJ43C"},{"org_id":"2","id":"1141","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 3e klasse D","nr":"WJ43D"},{"org_id":"2","id":"1616","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 3e klasse E","nr":"WJ43E"},{"org_id":"2","id":"2977","gewijzigd":"2015-12-11
+        12:43:08","naam":"West J14 2e helft 3e klasse F","nr":"WJ43F"},{"org_id":"2","id":"1142","gewijzigd":"2015-12-23
+        18:33:17","naam":"West J14 2e helft 4e klasse A","nr":"WJ44A"},{"org_id":"2","id":"1143","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 4e klasse B","nr":"WJ44B"},{"org_id":"2","id":"1144","gewijzigd":"2015-12-23
+        18:33:17","naam":"West J14 2e helft 4e klasse C","nr":"WJ44C"},{"org_id":"2","id":"1145","gewijzigd":"2015-12-21
+        18:33:24","naam":"West J14 2e helft 4e klasse D","nr":"WJ44D"},{"org_id":"2","id":"1146","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 4e klasse E","nr":"WJ44E"},{"org_id":"2","id":"2897","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J14 2e helft 4e klasse F","nr":"WJ44F"},{"org_id":"2","id":"2898","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J14 2e helft 4e klasse G","nr":"WJ44G"},{"org_id":"2","id":"1147","gewijzigd":"2015-12-11
+        12:43:08","naam":"West J14 2e helft 5e klasse A","nr":"WJ45A"},{"org_id":"2","id":"284","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Afdeling J16  1e klasse   2de helft","nr":"WJ6 1A"},{"org_id":"2","id":"287","gewijzigd":"2015-12-23
+        18:33:17","naam":"West J16 2e helft 2e klasse A","nr":"WJ62A"},{"org_id":"2","id":"288","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 2e klasse B","nr":"WJ62B"},{"org_id":"2","id":"359","gewijzigd":"2015-12-23
+        18:33:17","naam":"West J16 2e helft 2e klasse C","nr":"WJ62C"},{"org_id":"2","id":"19","gewijzigd":"2015-12-22
+        18:33:24","naam":"West J16 2e helft 2e klasse D","nr":"WJ62D"},{"org_id":"2","id":"1125","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J16 2e helft 3e klasse A","nr":"WJ63A"},{"org_id":"2","id":"1126","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 3e klasse B","nr":"WJ63B"},{"org_id":"2","id":"1127","gewijzigd":"2015-12-28
+        18:33:21","naam":"West J16 2e helft 3e klasse C","nr":"WJ63C"},{"org_id":"2","id":"266","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 3e klasse D","nr":"WJ63D"},{"org_id":"2","id":"1128","gewijzigd":"2015-12-24
+        18:33:21","naam":"West J16 2e helft 4e klasse A","nr":"WJ64A"},{"org_id":"2","id":"1129","gewijzigd":"2015-12-15
+        18:33:24","naam":"West J16 2e helft 4e klasse B","nr":"WJ64B"},{"org_id":"2","id":"1130","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 4e klasse C","nr":"WJ64C"},{"org_id":"2","id":"1131","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 4e klasse D","nr":"WJ64D"},{"org_id":"2","id":"1425","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J16 2e helft 4e klasse E","nr":"WJ64E"},{"org_id":"2","id":"1132","gewijzigd":"2015-12-24
+        18:33:21","naam":"West J16 2e helft 5e klasse A","nr":"WJ65A"},{"org_id":"2","id":"1253","gewijzigd":"2015-12-23
+        18:33:17","naam":"West Afdeling Under J8 2de helft 1 afd. A","nr":"WJ81A"},{"org_id":"2","id":"2336","gewijzigd":"2015-12-23
+        18:33:17","naam":"West Afdeling Under J8 2de helft 1 Afd. B","nr":"WJ81B"},{"org_id":"2","id":"281","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J18 2e helft 2e klasse A","nr":"WJ82A"},{"org_id":"2","id":"1113","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J18 2e helft 2e klasse B","nr":"WJ82B"},{"org_id":"2","id":"1114","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J18 2e helft 2e klasse C","nr":"WJ82C"},{"org_id":"2","id":"1116","gewijzigd":"2015-12-24
+        18:33:21","naam":"West J18 2e helft 3e klasse A","nr":"WJ83A"},{"org_id":"2","id":"1117","gewijzigd":"2015-12-23
+        18:33:17","naam":"West J18 2e helft 3e klasse B","nr":"WJ83B"},{"org_id":"2","id":"1118","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J18 2e helft 3e klasse C","nr":"WJ83C"},{"org_id":"2","id":"184","gewijzigd":"2015-12-11
+        12:43:08","naam":"West J18 2e helft 4e klasse A","nr":"WJ84A"},{"org_id":"2","id":"1617","gewijzigd":"2015-12-15
+        18:33:24","naam":"West J18 2e helft 4e klasse B","nr":"WJ84B"},{"org_id":"2","id":"1639","gewijzigd":"2015-12-08
+        18:33:28","naam":"West J18 2e helft 4e klasse C","nr":"WJ84C"},{"org_id":"2","id":"2978","gewijzigd":"2015-12-11
+        12:43:08","naam":"WEST J18 2e helft 4e klasse D","nr":"WJ84D"},{"org_id":"2","id":"2979","gewijzigd":"2015-12-15
+        18:33:24","naam":"WEST J18 2e helft 5e klasse","nr":"WJ85"},{"org_id":"2","id":"1665","gewijzigd":"2015-12-19
+        19:58:37","naam":"West Meisjes Under 12 2e klasse A","nr":"WM122A"},{"org_id":"2","id":"2862","gewijzigd":"2015-12-14
+        19:21:06","naam":"West Meisjes Under 12 3e klasse A","nr":"WM123A"},{"org_id":"2","id":"240","gewijzigd":"2015-12-19
+        19:59:10","naam":"West Meisjes Under 14 2e klasse A","nr":"WM142A"},{"org_id":"2","id":"241","gewijzigd":"2015-12-13
+        20:30:41","naam":"West Meisjes Under 14 2e klasse B","nr":"WM142B"},{"org_id":"2","id":"1735","gewijzigd":"2015-12-14
+        12:17:21","naam":"West Meisjes Under 14 3e klasse A","nr":"WM143A"},{"org_id":"2","id":"2953","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Meisjes Under 14 3e klasse B","nr":"WM143B"},{"org_id":"2","id":"2954","gewijzigd":"2015-12-12
+        18:33:13","naam":"West Meisjes Under 14 3e klasse C","nr":"WM143C"},{"org_id":"2","id":"150","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Meisjes Under 16 2e klasse A","nr":"WM162A"},{"org_id":"2","id":"233","gewijzigd":"2015-12-16
+        18:33:25","naam":"West Meisjes Under 16 2e klasse B","nr":"WM162B"},{"org_id":"2","id":"862","gewijzigd":"2015-12-18
+        23:58:06","naam":"West Meisjes Under 16 2e klasse C","nr":"WM162C"},{"org_id":"2","id":"2696","gewijzigd":"2015-12-14
+        00:53:20","naam":"West Meisjes Under 16 3e klasse A","nr":"WM163A"},{"org_id":"2","id":"2955","gewijzigd":"2015-12-13
+        20:53:06","naam":"West Meisjes Under 16 3e klasse B","nr":"WM163B"},{"org_id":"2","id":"2956","gewijzigd":"2015-12-19
+        18:33:17","naam":"West Meisjes Under 16 3e klasse C","nr":"WM163C"},{"org_id":"2","id":"245","gewijzigd":"2015-12-13
+        20:47:50","naam":"West Meisjes Under 18 2e klasse A","nr":"WM182A"},{"org_id":"2","id":"246","gewijzigd":"2015-12-13
+        18:33:12","naam":"West Meisjes Under 18 2e klasse B","nr":"WM182B"},{"org_id":"2","id":"176","gewijzigd":"2015-12-13
+        20:32:29","naam":"West Meisjes Under 18 2e klasse C","nr":"WM182C"},{"org_id":"2","id":"2865","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Meisjes Under 18 3e klasse A","nr":"WM183A"},{"org_id":"2","id":"2957","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Meisjes Under 18 3e klasse B","nr":"WM183B"},{"org_id":"2","id":"2241","gewijzigd":"2015-12-16
+        18:33:25","naam":"West M12 2e helft 2e klasse A","nr":"WM22A"},{"org_id":"2","id":"2980","gewijzigd":"2015-12-28
+        18:33:21","naam":"West M12 2e helft 3e klasse A","nr":"WM23A"},{"org_id":"2","id":"1167","gewijzigd":"2015-12-18
+        18:33:28","naam":"West M14 2e helft 2e klasse A","nr":"WM42A"},{"org_id":"2","id":"1164","gewijzigd":"2015-12-15
+        18:33:24","naam":"West M14 2e helft 2e klasse B","nr":"WM42B"},{"org_id":"2","id":"1165","gewijzigd":"2015-12-16
+        18:33:25","naam":"West M14 2e helft 2e klasse C","nr":"WM42C"},{"org_id":"2","id":"2981","gewijzigd":"2015-12-18
+        18:33:28","naam":"West M14 2e helft 3e klasse A","nr":"WM43A"},{"org_id":"2","id":"2982","gewijzigd":"2015-12-11
+        12:43:08","naam":"West M14 2e helft 3e klasse B","nr":"WM43B"},{"org_id":"2","id":"1137","gewijzigd":"2015-12-21
+        18:33:24","naam":"West M16 2e helft 2e klasse A","nr":"WM62A"},{"org_id":"2","id":"1138","gewijzigd":"2015-12-11
+        12:43:08","naam":"West M16 2e helft 2e klasse B","nr":"WM62B"},{"org_id":"2","id":"2901","gewijzigd":"2015-12-15
+        18:33:24","naam":"West M16 2e helft 3e klasse A","nr":"WM63A"},{"org_id":"2","id":"2902","gewijzigd":"2015-12-08
+        18:33:28","naam":"West M16 2e helft 3e klasse B","nr":"WM63B"},{"org_id":"2","id":"2983","gewijzigd":"2015-12-11
+        12:43:08","naam":"West M16 2e helft 3e klasse C","nr":"WM63C"},{"org_id":"2","id":"1122","gewijzigd":"2015-12-23
+        18:33:17","naam":"West M18 2e helft 2e klasse A","nr":"WM82A"},{"org_id":"2","id":"1123","gewijzigd":"2015-12-16
+        18:33:25","naam":"West M18 2e helft 2e klasse B","nr":"WM82B"},{"org_id":"2","id":"1124","gewijzigd":"2015-12-16
+        18:33:25","naam":"WEST M18 2e helft 2e klasse C","nr":"WM82C"},{"org_id":"2","id":"2906","gewijzigd":"2015-12-28
+        18:33:21","naam":"West M18 2e helft 3e klasse A","nr":"WM83A"},{"org_id":"2","id":"2907","gewijzigd":"2015-12-08
+        18:33:28","naam":"West M18 2e helft 3e klasse B","nr":"WM83B"},{"org_id":"2","id":"1174","gewijzigd":"2015-12-21
+        18:33:24","naam":"West X10 2e helft 1e klasse A","nr":"WX01A"},{"org_id":"2","id":"174","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X10 2e helft 2e klasse A","nr":"WX02A"},{"org_id":"2","id":"261","gewijzigd":"2015-12-16
+        18:33:25","naam":"West X10 2e helft 2e klasse B","nr":"WX02B"},{"org_id":"2","id":"759","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X10 2e helft 2e klasse C","nr":"WX02C"},{"org_id":"2","id":"231","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X10 2e helft 3e klasse A","nr":"WX03A"},{"org_id":"2","id":"232","gewijzigd":"2015-12-11
+        12:43:08","naam":"West X10 2e helft 3e klasse B","nr":"WX03B"},{"org_id":"2","id":"1626","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X10 2e helft 3e klasse C","nr":"WX03C"},{"org_id":"2","id":"2984","gewijzigd":"2015-12-23
+        18:33:17","naam":"West X10 2e helft 3e klasse D","nr":"WX03D"},{"org_id":"2","id":"2485","gewijzigd":"2015-12-24
+        18:33:21","naam":"West X10 2e helft 4e klasse A","nr":"WX04A"},{"org_id":"2","id":"2486","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X10 2e helft 4e klasse B","nr":"WX04B"},{"org_id":"2","id":"219","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Mixed Under 10 2e klasse A","nr":"WX102A"},{"org_id":"2","id":"208","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Mixed Under 10 2e klasse B","nr":"WX102B"},{"org_id":"2","id":"209","gewijzigd":"2015-12-19
+        19:57:53","naam":"West Mixed Under 10 2e klasse C","nr":"WX102C"},{"org_id":"2","id":"1736","gewijzigd":"2015-12-14
+        10:18:41","naam":"West Mixed Under 10 2e klasse D","nr":"WX102D"},{"org_id":"2","id":"1036","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Mixed Under 10 3e klasse A","nr":"WX103A"},{"org_id":"2","id":"2111","gewijzigd":"2015-12-19
+        14:55:29","naam":"West Mixed Under 10 3e klasse B","nr":"WX103B"},{"org_id":"2","id":"2112","gewijzigd":"2015-12-13
+        11:46:05","naam":"West Mixed Under 10 3e klasse C","nr":"WX103C"},{"org_id":"2","id":"2243","gewijzigd":"2015-12-19
+        18:33:17","naam":"West Mixed Under 10 3e klasse D","nr":"WX103D"},{"org_id":"2","id":"122","gewijzigd":"2015-12-13
+        14:12:12","naam":"WEST Afdeling Mixed Under 12 1e klasse A","nr":"WX121A"},{"org_id":"2","id":"125","gewijzigd":"2015-12-20
+        18:33:20","naam":"West Mixed Under 12 2e klasse A","nr":"WX122A"},{"org_id":"2","id":"126","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Mixed Under 12 2e klasse B","nr":"WX122B"},{"org_id":"2","id":"254","gewijzigd":"2015-12-22
+        18:33:24","naam":"West Mixed Under 12 3e klasse A","nr":"WX123A"},{"org_id":"2","id":"255","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Mixed Under 12 3e klasse B","nr":"WX123B"},{"org_id":"2","id":"256","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Mixed Under 12 3e klasse C","nr":"WX123C"},{"org_id":"2","id":"1023","gewijzigd":"2015-12-05
+        18:45:55","naam":"West Mixed Under 12 4e klasse A","nr":"WX124A"},{"org_id":"2","id":"1024","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Mixed Under 12 4e klasse B","nr":"WX124B"},{"org_id":"2","id":"1025","gewijzigd":"2015-12-28
+        18:33:21","naam":"West Mixed Under 12 4e klasse C","nr":"WX124C"},{"org_id":"2","id":"1032","gewijzigd":"2015-12-15
+        18:33:24","naam":"West Mixed Under 12 5e klasse A","nr":"WX125A"},{"org_id":"2","id":"1033","gewijzigd":"2015-12-21
+        22:02:03","naam":"West Mixed Under 12 5e klasse B","nr":"WX125B"},{"org_id":"2","id":"1030","gewijzigd":"2015-12-17
+        18:33:28","naam":"West Mixed Under 12 5e klasse C","nr":"WX125C"},{"org_id":"2","id":"2524","gewijzigd":"2015-12-13
+        18:33:12","naam":"West Mixed Under 12 5e klasse D","nr":"WX125D"},{"org_id":"2","id":"2698","gewijzigd":"2015-12-13
+        11:22:33","naam":"West Mixed Under 12 5e klasse E","nr":"WX125E"},{"org_id":"2","id":"127","gewijzigd":"2015-12-22
+        18:33:24","naam":"WEST MIXED Middenklasse 2A","nr":"WX12A2"},{"org_id":"2","id":"145","gewijzigd":"2015-12-19
+        14:54:47","naam":"WEST Mixed Middenklasse 2B","nr":"WX12B2"},{"org_id":"2","id":"1153","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Afdeling Mixed Under 12  1e klasse A","nr":"WX21A"},{"org_id":"2","id":"1154","gewijzigd":"2015-12-21
+        18:33:24","naam":"West Afdeling Mixed Under 12  1e klasse B","nr":"WX21B"},{"org_id":"2","id":"1155","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 2e klasse A","nr":"WX22A"},{"org_id":"2","id":"1156","gewijzigd":"2015-12-17
+        18:33:28","naam":"West X12 2e helft 2e Klasse B","nr":"WX22B"},{"org_id":"2","id":"1162","gewijzigd":"2015-12-18
+        18:33:28","naam":"West X12 2e helft 3e klasse A","nr":"WX23A"},{"org_id":"2","id":"1163","gewijzigd":"2015-12-16
+        18:33:25","naam":"West X12 2e helft 3e klasse B","nr":"WX23B"},{"org_id":"2","id":"1158","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 3e klasse C","nr":"WX23C"},{"org_id":"2","id":"1160","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 4e klasse A","nr":"WX24A"},{"org_id":"2","id":"1161","gewijzigd":"2015-12-16
+        18:33:25","naam":"West X12 2e helft 4e klasse B","nr":"WX24B"},{"org_id":"2","id":"358","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 4e klasse C","nr":"WX24C"},{"org_id":"2","id":"357","gewijzigd":"2015-12-22
+        18:33:24","naam":"West X12 2e helft 4e klasse D","nr":"WX24D"},{"org_id":"2","id":"1426","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 4e klasse E","nr":"WX24E"},{"org_id":"2","id":"351","gewijzigd":"2015-12-28
+        18:33:21","naam":"West X12 2e helft 5e klasse A","nr":"WX25A"},{"org_id":"2","id":"350","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 5e klasse B","nr":"WX25B"},{"org_id":"2","id":"349","gewijzigd":"2015-12-08
+        18:33:28","naam":"West X12 2e helft 5e klasse C","nr":"WX25C"},{"org_id":"2","id":"1291","gewijzigd":"2015-12-11
+        12:43:08","naam":"West X12 2e helft 5e klasse D","nr":"WX25D"},{"org_id":"4","id":"2611","gewijzigd":"2015-12-28
+        10:48:12","naam":"1e klasse U22","nr":"ZD221A"},{"org_id":"4","id":"2162","gewijzigd":"2015-12-20
+        17:23:08","naam":"1e klasse U22","nr":"ZD221B"},{"org_id":"4","id":"2612","gewijzigd":"2015-12-28
+        10:48:12","naam":"2e klasse U22","nr":"ZD222A"},{"org_id":"4","id":"2585","gewijzigd":"2015-12-18
+        23:15:29","naam":"4e klasse U20/U22","nr":"ZD224A"},{"org_id":"4","id":"2966","gewijzigd":"2015-12-20
+        18:32:14","naam":"Dutch Classic League HS","nr":"ZDCL"},{"org_id":"4","id":"447","gewijzigd":"2015-12-22
+        10:50:58","naam":"1e klasse DS","nr":"ZDS1A"},{"org_id":"4","id":"2719","gewijzigd":"2015-12-20
+        19:28:52","naam":"1e klasse DS","nr":"ZDS1B"},{"org_id":"4","id":"1054","gewijzigd":"2015-12-20
+        18:45:11","naam":"2e klasse DS","nr":"ZDS2A"},{"org_id":"4","id":"2867","gewijzigd":"2015-12-20
+        20:24:43","naam":"2e klasse DS","nr":"ZDS2B"},{"org_id":"4","id":"2868","gewijzigd":"2015-12-20
+        20:25:40","naam":"2e klasse DS","nr":"ZDS2C"},{"org_id":"4","id":"1535","gewijzigd":"2015-12-08
+        18:32:24","naam":"gemengd U10","nr":"ZGZ10"},{"org_id":"4","id":"771","gewijzigd":"2015-12-08
+        18:32:24","naam":"gemengd U12","nr":"ZGZ12"},{"org_id":"4","id":"2991","gewijzigd":"2015-12-28
+        10:48:14","naam":"1e klasse U20","nr":"ZH201A"},{"org_id":"4","id":"2958","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U20","nr":"ZH201B"},{"org_id":"4","id":"2992","gewijzigd":"2015-12-28
+        10:48:14","naam":"2e klasse U20","nr":"ZH202A"},{"org_id":"4","id":"2993","gewijzigd":"2015-12-28
+        10:48:15","naam":"2e klasse U20","nr":"ZH202B"},{"org_id":"4","id":"2959","gewijzigd":"2015-12-20
+        00:35:11","naam":"4e klasse U20","nr":"ZH204A"},{"org_id":"4","id":"2960","gewijzigd":"2015-12-20
+        19:31:32","naam":"4e klasse U20","nr":"ZH204B"},{"org_id":"4","id":"2961","gewijzigd":"2015-12-20
+        15:06:04","naam":"4e klasse U20","nr":"ZH204C"},{"org_id":"4","id":"2617","gewijzigd":"2015-12-28
+        10:48:15","naam":"1e klasse U22","nr":"ZH221A"},{"org_id":"4","id":"2618","gewijzigd":"2015-12-28
+        10:48:15","naam":"2e klasse U22","nr":"ZH222A"},{"org_id":"4","id":"2731","gewijzigd":"2015-12-20
+        20:02:41","naam":"4e klasse U22","nr":"ZH224A"},{"org_id":"4","id":"2542","gewijzigd":"2015-12-20
+        00:41:01","naam":"4e klasse U22","nr":"ZH224B"},{"org_id":"4","id":"480","gewijzigd":"2015-12-22
+        10:47:42","naam":"1e klasse HS","nr":"ZHS1A"},{"org_id":"4","id":"495","gewijzigd":"2015-12-20
+        20:25:50","naam":"1e klasse HS","nr":"ZHS1B"},{"org_id":"4","id":"761","gewijzigd":"2015-12-20
+        19:12:14","naam":"2e klasse HS","nr":"ZHS2A"},{"org_id":"4","id":"760","gewijzigd":"2015-12-20
+        19:30:58","naam":"2e klasse HS","nr":"ZHS2B"},{"org_id":"4","id":"2736","gewijzigd":"2015-12-22
+        10:48:55","naam":"3e klasse HS","nr":"ZHS3A"},{"org_id":"4","id":"2734","gewijzigd":"2015-12-20
+        18:32:14","naam":"3e klasse HS","nr":"ZHS3B"},{"org_id":"4","id":"487","gewijzigd":"2015-12-19
+        15:03:52","naam":"3e klasse HS","nr":"ZHS3Y"},{"org_id":"4","id":"2871","gewijzigd":"2015-12-20
+        20:25:27","naam":"4e klasse HS","nr":"ZHS4A"},{"org_id":"4","id":"2872","gewijzigd":"2015-12-20
+        20:24:57","naam":"4e klasse HS","nr":"ZHS4B"},{"org_id":"4","id":"2873","gewijzigd":"2015-12-20
+        19:30:15","naam":"4e klasse HS","nr":"ZHS4C"},{"org_id":"4","id":"2962","gewijzigd":"2015-12-20
+        11:05:41","naam":"4e klasse HS","nr":"ZHS4D"},{"org_id":"4","id":"2876","gewijzigd":"2015-12-20
+        15:07:45","naam":"4e klasse HS","nr":"ZHS4Y"},{"org_id":"4","id":"1554","gewijzigd":"2015-05-03
+        19:19:34","naam":"1e klasse U16","nr":"ZJ161A"},{"org_id":"4","id":"2635","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U16","nr":"ZJ161C"},{"org_id":"4","id":"2636","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U16","nr":"ZJ161D"},{"org_id":"4","id":"1555","gewijzigd":"2015-05-22
+        19:54:55","naam":"2e klasse U16","nr":"ZJ162A"},{"org_id":"4","id":"2637","gewijzigd":"2015-04-26
+        14:27:12","naam":"2e klasse U16","nr":"ZJ162B"},{"org_id":"4","id":"2638","gewijzigd":"2015-04-30
+        18:32:44","naam":"2e klasse U16","nr":"ZJ162C"},{"org_id":"4","id":"2639","gewijzigd":"2015-05-03
+        16:56:30","naam":"2e klasse U16","nr":"ZJ162D"},{"org_id":"4","id":"769","gewijzigd":"2015-05-04
+        10:28:55","naam":"3e klasse U16","nr":"ZJ163A"},{"org_id":"4","id":"2803","gewijzigd":"2015-05-03
+        12:38:03","naam":"3e klasse U16","nr":"ZJ163B"},{"org_id":"4","id":"2804","gewijzigd":"2015-04-26
+        20:46:30","naam":"3e klasse U16","nr":"ZJ163C"},{"org_id":"4","id":"2805","gewijzigd":"2015-04-26
+        18:32:45","naam":"3e klasse U16","nr":"ZJ163D"},{"org_id":"4","id":"1682","gewijzigd":"2015-04-19
+        18:32:43","naam":"3e klasse U16","nr":"ZJ163E"},{"org_id":"4","id":"2745","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U16","nr":"ZJ164A"},{"org_id":"4","id":"2746","gewijzigd":"2015-12-20
+        23:21:14","naam":"4e klasse U16","nr":"ZJ164B"},{"org_id":"4","id":"2747","gewijzigd":"2015-12-13
+        14:00:39","naam":"4e klasse U16","nr":"ZJ164C"},{"org_id":"4","id":"2748","gewijzigd":"2015-12-20
+        19:11:10","naam":"4e klasse U16","nr":"ZJ164D"},{"org_id":"4","id":"1685","gewijzigd":"2015-12-20
+        11:10:11","naam":"4e klasse U16","nr":"ZJ164E"},{"org_id":"4","id":"1686","gewijzigd":"2015-12-20
+        19:29:53","naam":"4e klasse U16","nr":"ZJ164F"},{"org_id":"4","id":"1687","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U16","nr":"ZJ164G"},{"org_id":"4","id":"1688","gewijzigd":"2015-12-25
+        18:32:16","naam":"4e klasse U16","nr":"ZJ164H"},{"org_id":"4","id":"2563","gewijzigd":"2015-12-18
+        23:17:32","naam":"U16","nr":"ZJ164Y"},{"org_id":"4","id":"1567","gewijzigd":"2015-05-10
+        13:26:35","naam":"1e klasse U18","nr":"ZJ181A"},{"org_id":"4","id":"2806","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U18","nr":"ZJ181C"},{"org_id":"4","id":"2807","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U18","nr":"ZJ181D"},{"org_id":"4","id":"1566","gewijzigd":"2015-04-26
+        18:32:45","naam":"2e klasse U18","nr":"ZJ182A"},{"org_id":"4","id":"2641","gewijzigd":"2015-04-26
+        18:32:45","naam":"2e klasse U18","nr":"ZJ182B"},{"org_id":"4","id":"2642","gewijzigd":"2015-05-07
+        18:32:43","naam":"2e klasse U18","nr":"ZJ182C"},{"org_id":"4","id":"1020","gewijzigd":"2015-05-16
+        16:48:15","naam":"3e klasse U18","nr":"ZJ183A"},{"org_id":"4","id":"2808","gewijzigd":"2015-05-17
+        09:48:16","naam":"3e klasse U18","nr":"ZJ183B"},{"org_id":"4","id":"2809","gewijzigd":"2015-05-16
+        17:18:05","naam":"3e klasse U18","nr":"ZJ183C"},{"org_id":"4","id":"2759","gewijzigd":"2015-12-20
+        23:19:45","naam":"4e klasse U18","nr":"ZJ184A"},{"org_id":"4","id":"2749","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U18","nr":"ZJ184B"},{"org_id":"4","id":"2750","gewijzigd":"2015-12-20
+        19:35:34","naam":"4e klasse U18","nr":"ZJ184C"},{"org_id":"4","id":"2751","gewijzigd":"2015-12-20
+        19:29:26","naam":"4e klasse U18","nr":"ZJ184D"},{"org_id":"4","id":"2433","gewijzigd":"2015-12-20
+        20:42:54","naam":"4e klasse U18","nr":"ZJ184E"},{"org_id":"4","id":"2434","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U18","nr":"ZJ184F"},{"org_id":"4","id":"2566","gewijzigd":"2015-12-20
+        15:08:39","naam":"U18","nr":"ZJ184Y"},{"org_id":"4","id":"2569","gewijzigd":"2015-11-28
+        18:32:13","naam":"4e klasse U12","nr":"ZM124A"},{"org_id":"4","id":"2646","gewijzigd":"2015-05-15
+        22:51:56","naam":"1e klasse U14","nr":"ZM141A"},{"org_id":"4","id":"2647","gewijzigd":"2015-05-07
+        12:04:57","naam":"2e klasse U14","nr":"ZM142A"},{"org_id":"4","id":"2648","gewijzigd":"2015-05-03
+        12:47:07","naam":"2e klasse U14","nr":"ZM142B"},{"org_id":"4","id":"2752","gewijzigd":"2015-12-19
+        22:29:08","naam":"4e klasse U14","nr":"ZM144A"},{"org_id":"4","id":"2753","gewijzigd":"2015-12-20
+        14:40:21","naam":"4e klasse U14","nr":"ZM144B"},{"org_id":"4","id":"2754","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U14","nr":"ZM144C"},{"org_id":"4","id":"1019","gewijzigd":"2015-05-07
+        11:57:25","naam":"1e klasse U16","nr":"ZM161A"},{"org_id":"4","id":"2811","gewijzigd":"2015-12-20
+        18:32:14","naam":"1e klasse U16","nr":"ZM161B"},{"org_id":"4","id":"2812","gewijzigd":"2015-12-20
+        17:22:26","naam":"1e klasse U16","nr":"ZM161C"},{"org_id":"4","id":"2649","gewijzigd":"2015-12-28
+        10:48:15","naam":"M162A 2e klasse U16","nr":"ZM162A"},{"org_id":"4","id":"2650","gewijzigd":"2015-05-03
+        12:39:23","naam":"2e klasse U16","nr":"ZM162B"},{"org_id":"4","id":"2755","gewijzigd":"2015-12-20
+        00:32:51","naam":"4e klasse U16","nr":"ZM164A"},{"org_id":"4","id":"2756","gewijzigd":"2015-12-20
+        10:57:22","naam":"4e klasse U16","nr":"ZM164B"},{"org_id":"4","id":"2652","gewijzigd":"2015-05-02
+        11:45:07","naam":"1e klasse U18","nr":"ZM181A"},{"org_id":"4","id":"2653","gewijzigd":"2015-05-02
+        14:40:21","naam":"2e klasse U18","nr":"ZM182A"},{"org_id":"4","id":"2654","gewijzigd":"2015-05-03
+        12:02:44","naam":"2e klasse U18","nr":"ZM182B"},{"org_id":"4","id":"2575","gewijzigd":"2015-12-20
+        17:22:03","naam":"4e klasse U18","nr":"ZM184A"},{"org_id":"4","id":"2574","gewijzigd":"2015-12-20
+        11:09:24","naam":"4e klasse U18","nr":"ZM184B"},{"org_id":"4","id":"2573","gewijzigd":"2015-12-20
+        19:13:46","naam":"4e klasse U18","nr":"ZM184C"},{"org_id":"4","id":"2967","gewijzigd":"2015-12-12
+        11:09:21","naam":"U14-U16-U18","nr":"ZM184Y"},{"org_id":"4","id":"1603","gewijzigd":"2015-05-07
+        12:11:16","naam":"1e klasse U10","nr":"ZX101A"},{"org_id":"4","id":"2656","gewijzigd":"2015-05-23
+        10:50:06","naam":"2e klasse U10","nr":"ZX102A"},{"org_id":"4","id":"1644","gewijzigd":"2015-05-07
+        18:32:43","naam":"2e klasse U10","nr":"ZX102B"},{"org_id":"4","id":"2301","gewijzigd":"2015-12-28
+        10:46:19","naam":"3e klasse U10","nr":"ZX103A"},{"org_id":"4","id":"456","gewijzigd":"2015-12-28
+        10:46:35","naam":"3e klasse U10","nr":"ZX103B"},{"org_id":"4","id":"470","gewijzigd":"2015-12-28
+        10:46:40","naam":"3e klasse U10","nr":"ZX103C"},{"org_id":"4","id":"469","gewijzigd":"2015-12-28
+        10:46:44","naam":"3e klasse U10","nr":"ZX103D"},{"org_id":"4","id":"2540","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U10","nr":"ZX104A"},{"org_id":"4","id":"2724","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U10","nr":"ZX104B"},{"org_id":"4","id":"2725","gewijzigd":"2015-12-20
+        14:41:04","naam":"4e klasse U10","nr":"ZX104C"},{"org_id":"4","id":"2726","gewijzigd":"2015-12-20
+        11:08:42","naam":"4e klasse U10","nr":"ZX104D"},{"org_id":"4","id":"2536","gewijzigd":"2015-12-20
+        20:55:51","naam":"4e klasse U10","nr":"ZX104E"},{"org_id":"4","id":"2537","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U10","nr":"ZX104F"},{"org_id":"4","id":"1536","gewijzigd":"2015-05-07
+        12:15:01","naam":"1e klasse U12","nr":"ZX121A"},{"org_id":"4","id":"2163","gewijzigd":"2015-12-22
+        10:54:23","naam":"1e klasse U12","nr":"ZX121B"},{"org_id":"4","id":"1537","gewijzigd":"2015-05-10
+        18:32:47","naam":"2e klasse U12","nr":"ZX122A"},{"org_id":"4","id":"2230","gewijzigd":"2015-04-27
+        18:32:46","naam":"2e klasse U12","nr":"ZX122B"},{"org_id":"4","id":"1538","gewijzigd":"2015-05-03
+        12:38:18","naam":"2e klasse U12","nr":"ZX122C"},{"org_id":"4","id":"1539","gewijzigd":"2015-05-01
+        18:32:46","naam":"2e klasse U12","nr":"ZX122D"},{"org_id":"4","id":"1540","gewijzigd":"2015-06-09
+        07:37:19","naam":"3e klasse U12","nr":"ZX123A"},{"org_id":"4","id":"2158","gewijzigd":"2015-05-16
+        16:46:30","naam":"3e klasse U12","nr":"ZX123B"},{"org_id":"4","id":"2159","gewijzigd":"2015-04-26
+        13:39:02","naam":"3e klasse U12","nr":"ZX123C"},{"org_id":"4","id":"2341","gewijzigd":"2015-05-03
+        16:32:20","naam":"3e klasse U12","nr":"ZX123D"},{"org_id":"4","id":"1541","gewijzigd":"2015-05-17
+        13:53:02","naam":"3e klasse U12","nr":"ZX123E"},{"org_id":"4","id":"1542","gewijzigd":"2015-04-26
+        19:46:09","naam":"3e klasse U12","nr":"ZX123F"},{"org_id":"4","id":"1543","gewijzigd":"2015-05-03
+        20:10:41","naam":"3e klasse U12","nr":"ZX123G"},{"org_id":"4","id":"478","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U12","nr":"ZX124A"},{"org_id":"4","id":"477","gewijzigd":"2015-12-20
+        15:12:27","naam":"4e klasse U12","nr":"ZX124B"},{"org_id":"4","id":"770","gewijzigd":"2015-12-20
+        19:36:57","naam":"4e klasse U12","nr":"ZX124C"},{"org_id":"4","id":"1309","gewijzigd":"2015-12-20
+        13:11:19","naam":"4e klasse U12","nr":"ZX124D"},{"org_id":"4","id":"1388","gewijzigd":"2015-12-20
+        18:46:57","naam":"4e klasse U12","nr":"ZX124E"},{"org_id":"4","id":"1307","gewijzigd":"2015-12-20
+        19:13:13","naam":"4e klasse U12","nr":"ZX124F"},{"org_id":"4","id":"1226","gewijzigd":"2015-12-20
+        19:28:39","naam":"4e klasse U12","nr":"ZX124G"},{"org_id":"4","id":"2164","gewijzigd":"2015-12-19
+        21:30:45","naam":"4e klasse U12","nr":"ZX124H"},{"org_id":"4","id":"1233","gewijzigd":"2015-12-20
+        11:43:38","naam":"4e klasse U12","nr":"ZX124J"},{"org_id":"4","id":"1690","gewijzigd":"2015-12-24
+        18:32:17","naam":"4e klasse U12","nr":"ZX124K"},{"org_id":"4","id":"2909","gewijzigd":"2015-04-25
+        16:51:56","naam":"1e klasse U14","nr":"ZX141A"},{"org_id":"4","id":"2303","gewijzigd":"2015-12-20
+        17:22:27","naam":"1e klasse U14","nr":"ZX141B"},{"org_id":"4","id":"1569","gewijzigd":"2015-05-21
+        18:32:49","naam":"2e klasse U14","nr":"ZX142A"},{"org_id":"4","id":"2232","gewijzigd":"2015-05-02
+        14:23:05","naam":"2e klasse U14","nr":"ZX142B"},{"org_id":"4","id":"2342","gewijzigd":"2015-04-26
+        18:32:45","naam":"2e klasse U14","nr":"ZX142C"},{"org_id":"4","id":"2344","gewijzigd":"2015-04-23
+        18:32:37","naam":"2e klasse U14","nr":"ZX142D"},{"org_id":"4","id":"1570","gewijzigd":"2015-05-04
+        10:29:24","naam":"3e klasse U14","nr":"ZX143A"},{"org_id":"4","id":"1648","gewijzigd":"2015-05-16
+        16:47:38","naam":"3e klasse U14","nr":"ZX143B"},{"org_id":"4","id":"2160","gewijzigd":"2015-05-17
+        13:53:21","naam":"3e klasse U14","nr":"ZX143C"},{"org_id":"4","id":"2304","gewijzigd":"2015-05-10
+        13:04:53","naam":"3e klasse U14","nr":"ZX143D"},{"org_id":"4","id":"2345","gewijzigd":"2015-05-16
+        17:49:48","naam":"3e klasse U14","nr":"ZX143E"},{"org_id":"4","id":"2346","gewijzigd":"2015-05-10
+        16:19:30","naam":"3e klasse U14","nr":"ZX143F"},{"org_id":"4","id":"2347","gewijzigd":"2015-12-28
+        10:47:17","naam":"3e klasse U14","nr":"ZX143G"},{"org_id":"4","id":"1493","gewijzigd":"2015-12-20
+        23:22:18","naam":"4e klasse U14","nr":"ZX144A"},{"org_id":"4","id":"2315","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U14","nr":"ZX144B"},{"org_id":"4","id":"2316","gewijzigd":"2015-12-20
+        18:49:34","naam":"4e klasse U14","nr":"ZX144C"},{"org_id":"4","id":"2314","gewijzigd":"2015-12-20
+        11:09:47","naam":"4e klasse U14","nr":"ZX144D"},{"org_id":"4","id":"2305","gewijzigd":"2015-12-20
+        20:25:14","naam":"4e klasse U14","nr":"ZX144E"},{"org_id":"4","id":"2306","gewijzigd":"2015-12-20
+        19:31:17","naam":"4e klasse U14","nr":"ZX144F"},{"org_id":"4","id":"2307","gewijzigd":"2015-12-14
+        18:32:15","naam":"4e klasse U14","nr":"ZX144G"},{"org_id":"4","id":"2308","gewijzigd":"2015-12-20
+        18:32:14","naam":"4e klasse U14","nr":"ZX144H"},{"org_id":"4","id":"2309","gewijzigd":"2015-12-20
+        17:20:18","naam":"4e klasse U14","nr":"ZX144J"},{"org_id":"4","id":"2310","gewijzigd":"2015-12-20
+        19:39:31","naam":"4e klasse U14","nr":"ZX144K"},{"org_id":"4","id":"2312","gewijzigd":"2015-12-18
+        23:09:32","naam":"U14-U16-U18","nr":"ZX144Y"},{"org_id":"1","id":"2971","gewijzigd":"2015-12-11
+        12:26:54","naam":"Streetball Masters WT Amsterdam","nr":"L SBM"},{"org_id":"1","id":"2154","gewijzigd":"2015-09-13
+        18:55:06","naam":"Landelijke beker voorronde mannen MU18/A","nr":"LBV18A"},{"org_id":"1","id":"2155","gewijzigd":"2015-09-14
+        18:32:12","naam":"Landelijke beker voorronde mannen MU18/B","nr":"LBV18B"},{"org_id":"1","id":"2402","gewijzigd":"2015-09-12
+        15:42:04","naam":"Landelijke beker voorronde mannen MU20/A","nr":"LBV20A"},{"org_id":"1","id":"2520","gewijzigd":"2015-09-13
+        19:00:03","naam":"Landelijke beker voorronde mannen MU20/B","nr":"LBV20B"},{"org_id":"1","id":"2151","gewijzigd":"2015-09-14
+        18:32:12","naam":"Landelijke beker voorronde mannen senioren A/MU22","nr":"LBVMSA"},{"org_id":"1","id":"2152","gewijzigd":"2015-09-30
+        18:31:07","naam":"Landelijke beker voorronde mannen senioren B/MU22","nr":"LBVMSB"},{"org_id":"1","id":"2153","gewijzigd":"2015-09-14
+        18:32:12","naam":"Landelijke beker voorronde mannen senioren C/MU22","nr":"LBVMSC"},{"org_id":"1","id":"2324","gewijzigd":"2015-09-13
+        18:30:51","naam":"Landelijke beker voorronde mannen senioren D/MU22","nr":"LBVMSD"},{"org_id":"1","id":"2191","gewijzigd":"2015-09-12
+        18:30:52","naam":"Landelijke beker voorronde rolstoelbasketball A","nr":"LBVRBA"},{"org_id":"1","id":"2192","gewijzigd":"2015-09-12
+        18:30:52","naam":"Landelijke beker voorronde rolstoelbasketball B","nr":"LBVRBB"},{"org_id":"1","id":"2878","gewijzigd":"2015-09-13
+        18:30:51","naam":"Landelijke beker voorronde vrouwen VU20/VU18","nr":"LBVV20"},{"org_id":"1","id":"2150","gewijzigd":"2015-10-09
+        18:31:17","naam":"Landelijke beker voorronde vrouwen senioren A/VU22","nr":"LBVVSA"},{"org_id":"1","id":"2161","gewijzigd":"2015-10-01
+        18:31:13","naam":"Landelijke beker voorronde vrouwen senioren B/VU22","nr":"LBVVSB"},{"org_id":"1","id":"2323","gewijzigd":"2015-09-13
+        18:30:51","naam":"Landelijke beker voorronde vrouwen senioren C/VU22","nr":"LBVVSC"},{"org_id":"1","id":"781","gewijzigd":"2015-12-07
+        18:31:59","naam":"Beker Vrouwen U20","nr":"LD20B"},{"org_id":"1","id":"440","gewijzigd":"2015-12-21
+        00:20:04","naam":"Vrouwen U20 Eredivisie","nr":"LD20E"},{"org_id":"1","id":"2829","gewijzigd":"2015-12-24
+        18:32:00","naam":"Vrouwen U22 Tweede Divisie","nr":"LD22D"},{"org_id":"1","id":"2825","gewijzigd":"2015-12-20
+        18:31:55","naam":"Vrouwen Senioren Tweede Divisie A","nr":"LDS2DA"},{"org_id":"1","id":"2826","gewijzigd":"2015-12-24
+        18:32:00","naam":"Vrouwen Senioren Tweede Divisie B","nr":"LDS2DB"},{"org_id":"1","id":"2827","gewijzigd":"2015-12-22
+        10:44:20","naam":"Vrouwen Senioren Tweede Divisie C","nr":"LDS2DC"},{"org_id":"1","id":"778","gewijzigd":"2015-12-22
+        18:32:02","naam":"Beker Vrouwen Senioren","nr":"LDSB"},{"org_id":"1","id":"429","gewijzigd":"2015-12-17
+        15:10:34","naam":"Vrouwen Basketball League","nr":"LDSE"},{"org_id":"1","id":"1269","gewijzigd":"2015-12-20
+        14:11:44","naam":"Vrouwen Senioren Basketball League Final Four","nr":"LDSFF"},{"org_id":"1","id":"754","gewijzigd":"2015-12-19
+        23:09:28","naam":"Vrouwen Senioren Promotiedivisie","nr":"LDSP"},{"org_id":"1","id":"2190","gewijzigd":"2015-09-20
+        21:20:19","naam":"Supercup Vrouwen Senioren","nr":"LDSSC"},{"org_id":"1","id":"2835","gewijzigd":"2015-12-21
+        18:32:02","naam":"Mannen U20 Tweede Divisie A","nr":"LH20DA"},{"org_id":"1","id":"2836","gewijzigd":"2015-12-21
+        11:02:09","naam":"Mannen U20 Tweede Divisie B","nr":"LH20DB"},{"org_id":"1","id":"2943","gewijzigd":"2015-12-24
+        18:32:00","naam":"Mannen U22 Tweede Divisie","nr":"LH22D"},{"org_id":"1","id":"2963","gewijzigd":"2015-12-12
+        18:31:50","naam":"Beker Mannen U24","nr":"LH24B"},{"org_id":"1","id":"2875","gewijzigd":"2015-12-20
+        20:06:45","naam":"Dutch Talent League (U24)","nr":"LH24E"},{"org_id":"1","id":"427","gewijzigd":"2015-12-22
+        18:32:02","naam":"Mannen Senioren Eerste Divisie A","nr":"LHS1DA"},{"org_id":"1","id":"428","gewijzigd":"2015-12-24
+        18:32:00","naam":"Mannen Senioren Eerste Divisie B","nr":"LHS1DB"},{"org_id":"1","id":"2820","gewijzigd":"2015-12-19
+        22:29:20","naam":"Mannen Senioren Tweede Divisie A","nr":"LHS2DA"},{"org_id":"1","id":"2821","gewijzigd":"2015-12-22
+        18:32:02","naam":"Mannen Senioren Tweede Divisie B","nr":"LHS2DB"},{"org_id":"1","id":"2822","gewijzigd":"2015-12-21
+        18:32:02","naam":"Mannen Senioren Tweede Divisie C","nr":"LHS2DC"},{"org_id":"1","id":"2823","gewijzigd":"2015-12-20
+        18:31:55","naam":"Mannen Senioren Tweede Divisie D","nr":"LHS2DD"},{"org_id":"1","id":"779","gewijzigd":"2015-12-22
+        18:32:02","naam":"Beker Mannen Senioren","nr":"LHSB"},{"org_id":"1","id":"421","gewijzigd":"2015-12-20
+        19:44:23","naam":"Mannen Senioren Eredivisie","nr":"LHSE"},{"org_id":"1","id":"426","gewijzigd":"2015-12-20
+        18:31:55","naam":"Mannen Senioren Promotiedivisie","nr":"LHSP"},{"org_id":"1","id":"2445","gewijzigd":"2015-10-04
+        21:36:12","naam":"Supercup Mannen Senioren","nr":"LHSSC"},{"org_id":"1","id":"2841","gewijzigd":"2015-12-21
+        13:30:06","naam":"Mannen U12 Tweede Divisie","nr":"LJ12D"},{"org_id":"1","id":"2944","gewijzigd":"2015-12-20
+        20:00:35","naam":"Mannen U14 Tweede Divisie","nr":"LJ14D"},{"org_id":"1","id":"2375","gewijzigd":"2015-12-23
+        09:14:42","naam":"Mannen U14 Eredivisie","nr":"LJ14E"},{"org_id":"1","id":"2839","gewijzigd":"2015-12-23
+        12:15:02","naam":"Mannen U16 Tweede Divisie A","nr":"LJ16DA"},{"org_id":"1","id":"2840","gewijzigd":"2015-12-20
+        17:30:17","naam":"Mannen U16 Tweede Divisie B","nr":"LJ16DB"},{"org_id":"1","id":"625","gewijzigd":"2015-12-24
+        18:32:00","naam":"Mannen U16 Eredivisie","nr":"LJ16E"},{"org_id":"1","id":"2442","gewijzigd":"2015-12-22
+        18:32:02","naam":"Beker Mannen U18","nr":"LJ18B"},{"org_id":"1","id":"2837","gewijzigd":"2015-12-20
+        20:01:54","naam":"Mannen U18 Tweede Divisie A","nr":"LJ18DA"},{"org_id":"1","id":"2838","gewijzigd":"2015-12-22
+        12:15:02","naam":"Mannen U18 Tweede Divisie B","nr":"LJ18DB"},{"org_id":"1","id":"624","gewijzigd":"2015-12-24
+        18:32:00","naam":"Mannen U18 Eredivisie","nr":"LJ18E"},{"org_id":"1","id":"2832","gewijzigd":"2015-12-19
+        18:31:55","naam":"Vrouwen U16 Tweede Divisie","nr":"LM16D"},{"org_id":"1","id":"2830","gewijzigd":"2015-12-20
+        18:31:55","naam":"Vrouwen U18 Tweede Divisie A","nr":"LM18DA"},{"org_id":"1","id":"2831","gewijzigd":"2015-12-24
+        18:32:00","naam":"Vrouwen U18 Tweede Divisie B","nr":"LM18DB"},{"org_id":"1","id":"1316","gewijzigd":"2015-11-22
+        18:31:56","naam":"Beker Rolstoel","nr":"LRBB"},{"org_id":"1","id":"444","gewijzigd":"2015-12-19
+        20:32:28","naam":"Rolstoel Eredivisie","nr":"LRBE"},{"org_id":"1","id":"2886","gewijzigd":"2015-12-12
+        18:31:50","naam":"Cruyff Foundation Junior League Rolstoelbasketball","nr":"LRBJL"},{"org_id":"1","id":"2985","gewijzigd":"2015-12-17
+        09:02:24","naam":"Junior League rolstoelbasketball poule A","nr":"LRBJLA"},{"org_id":"1","id":"2986","gewijzigd":"2015-12-17
+        09:02:24","naam":"Junior League rolstoelbasketball poule B","nr":"LRBJLB"},{"org_id":"1","id":"446","gewijzigd":"2015-12-20
+        18:31:55","naam":"Rolstoel Toernooidivisie A","nr":"LRBTA"},{"org_id":"1","id":"1315","gewijzigd":"2015-11-29
+        18:31:53","naam":"Rolstoel Toernooidivisie B","nr":"LRBTB"},{"org_id":"1","id":"1313","gewijzigd":"2015-12-24
+        18:32:00","naam":"Rolstoel Toernooidivisie C1","nr":"LRBTC1"},{"org_id":"1","id":"2595","gewijzigd":"2015-11-24
+        18:32:08","naam":"Rolstoel Toernooidivisie C2","nr":"LRBTC2"},{"org_id":"1","id":"2972","gewijzigd":"2015-12-17
+        09:01:19","naam":"NBB Talentcup Mannen U13 A","nr":"LTM13A"},{"org_id":"1","id":"2973","gewijzigd":"2015-12-17
+        09:01:19","naam":"NBB Talentcup Mannen U13 B","nr":"LTM13B"},{"org_id":"1","id":"2911","gewijzigd":"2015-12-11
+        12:26:54","naam":"Talentcup Mannen U14","nr":"TJ14"},{"org_id":"1","id":"2912","gewijzigd":"2015-12-11
+        12:26:54","naam":"Talentcup Mannen U15","nr":"TJ15"},{"org_id":"1","id":"2913","gewijzigd":"2015-12-11
+        12:26:54","naam":"Talentcup Vrouwen U14","nr":"TM14"},{"org_id":"1","id":"2914","gewijzigd":"2015-12-11
+        12:26:54","naam":"Talentcup Vrouwen U15","nr":"TM15"}],"last_change":"2015-12-28
+        18:33:21","version":"1.1","seizoen":"2015-2016"}'
+    http_version: 
+  recorded_at: Mon, 28 Dec 2015 23:52:29 GMT
+recorded_with: VCR 3.0.1

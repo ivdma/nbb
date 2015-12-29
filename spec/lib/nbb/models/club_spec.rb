@@ -16,7 +16,7 @@ describe Nbb::Models::Club do
     }
   end
 
-  it 'is Models::Base' do
+  it 'is Nbb::Models::Club' do
     expect(described_class.new(id: '0')).to be_a Nbb::Models::Club
   end
 

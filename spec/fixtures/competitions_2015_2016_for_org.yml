@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/competities.pl?org_ID=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Dec 2015 00:00:55 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"competities":[{"org_id":"5","id":"644","gewijzigd":"2015-12-20 16:36:34","naam":"Nrd
+        Mannen U14 1","nr":"NM14-1"},{"org_id":"5","id":"1700","gewijzigd":"2015-12-19
+        23:06:29","naam":"Nrd Mannen U14 2","nr":"NM14-2"},{"org_id":"5","id":"2710","gewijzigd":"2015-12-20
+        14:14:10","naam":"Nrd Mannen U14 3A","nr":"NM143A"},{"org_id":"5","id":"2711","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U14 3B","nr":"NM143B"},{"org_id":"5","id":"653","gewijzigd":"2015-12-20
+        22:14:54","naam":"Nrd Mannen U16 1","nr":"NM16-1"},{"org_id":"5","id":"654","gewijzigd":"2015-12-20
+        22:15:33","naam":"Nrd Mannen U16 2A","nr":"NM162A"},{"org_id":"5","id":"652","gewijzigd":"2015-12-12
+        21:21:41","naam":"Nrd Mannen U16 2B","nr":"NM162B"},{"org_id":"5","id":"1222","gewijzigd":"2015-12-21
+        08:21:05","naam":"Nrd Mannen U16 3A","nr":"NM163A"},{"org_id":"5","id":"1223","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U16 3B","nr":"NM163B"},{"org_id":"5","id":"1702","gewijzigd":"2015-12-19
+        22:59:19","naam":"Nrd Mannen U18 1","nr":"NM18-1"},{"org_id":"5","id":"1703","gewijzigd":"2015-12-21
+        18:34:34","naam":"Nrd Mannen U18 2","nr":"NM18-2"},{"org_id":"5","id":"1704","gewijzigd":"2015-12-19
+        23:01:02","naam":"Nrd Mannen U18 3","nr":"NM18-3"},{"org_id":"5","id":"1575","gewijzigd":"2015-12-20
+        09:25:24","naam":"Nrd Mannen U22 + U20","nr":"NM22"},{"org_id":"5","id":"2526","gewijzigd":"2015-12-20
+        09:50:45","naam":"Nrd Mannen Senioren 1","nr":"NMS-1"},{"org_id":"5","id":"2527","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 2A","nr":"NMS-2A"},{"org_id":"5","id":"2528","gewijzigd":"2015-12-20
+        16:37:28","naam":"Nrd Mannen Senioren 2B","nr":"NMS-2B"},{"org_id":"5","id":"2529","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 3A","nr":"NMS-3A"},{"org_id":"5","id":"2530","gewijzigd":"2015-12-20
+        18:34:30","naam":"Nrd Mannen Senioren 3B","nr":"NMS-3B"},{"org_id":"5","id":"887","gewijzigd":"2015-12-20
+        11:12:23","naam":"Nrd Vrouwen U16 + U14","nr":"NV16"},{"org_id":"5","id":"2320","gewijzigd":"2015-11-01
+        14:41:43","naam":"Nrd Vrouwen U16 + U14 1","nr":"NV16-1"},{"org_id":"5","id":"2321","gewijzigd":"2015-11-01
+        18:34:09","naam":"Nrd Vrouwen U16 + U14 2","nr":"NV16-2"},{"org_id":"5","id":"1707","gewijzigd":"2015-12-20
+        16:36:58","naam":"Nrd Vrouwen U18 + U16","nr":"NV18"},{"org_id":"5","id":"2386","gewijzigd":"2015-12-21
+        08:20:45","naam":"Nrd Vrouwen U22 - U18","nr":"NV22"},{"org_id":"5","id":"2531","gewijzigd":"2015-12-20
+        09:25:33","naam":"Nrd Vrouwen Senioren 1","nr":"NVS-1"},{"org_id":"5","id":"2532","gewijzigd":"2015-12-20
+        13:02:16","naam":"Nrd Vrouwen Senioren 2","nr":"NVS-2"},{"org_id":"5","id":"2591","gewijzigd":"2015-12-19
+        17:16:57","naam":"Nrd miX U12 1e klasse","nr":"NX12-1"},{"org_id":"5","id":"2598","gewijzigd":"2015-12-20
+        09:26:09","naam":"Nrd miX U12 2e klasse","nr":"NX12-2"},{"org_id":"5","id":"2285","gewijzigd":"2015-12-20
+        00:12:42","naam":"Nrd miX U12 3e klasse","nr":"NX12-3"},{"org_id":"5","id":"2286","gewijzigd":"2015-12-20
+        16:34:58","naam":"Nrd miX U12 4e klasse","nr":"NX12-4"},{"org_id":"5","id":"2712","gewijzigd":"2015-12-20
+        22:15:11","naam":"Nrd miX U12 Friesland","nr":"NX12-F"},{"org_id":"5","id":"2592","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 1e klasse B","nr":"NX121B"},{"org_id":"5","id":"2599","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 2e klasse B","nr":"NX122B"},{"org_id":"5","id":"2662","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 3e klasse B","nr":"NX123B"},{"org_id":"5","id":"2600","gewijzigd":"2015-12-18
+        18:34:37","naam":"Nrd miX U12 4e klasse B","nr":"NX124B"},{"org_id":"5","id":"648","gewijzigd":"2015-12-19
+        18:34:26","naam":"Nrd miX U12 Friesland 1","nr":"NX12F1"},{"org_id":"5","id":"2987","gewijzigd":"2015-12-19
+        18:34:26","naam":"Nrd miX U12 Friesland 2","nr":"NX12F2"}],"last_change":"2015-12-21
+        18:34:34","version":"1.1","seizoen":"2015-2016"}'
+    http_version: 
+  recorded_at: Tue, 29 Dec 2015 00:00:55 GMT
+recorded_with: VCR 3.0.1

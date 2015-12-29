@@ -26,6 +26,27 @@ describe Nbb do
         described_class.clubs
       end
     end
+
+    it 'is the same as wrapped method' do
+      VCR.use_cassette :clubs_2015_2016, allow_playback_repeats: true do
+        expect(described_class.clubs.map(&:name)).to eq Nbb::Clubs.all.map(&:name)
+      end
+    end
+  end
+
+  describe '::competitions' do
+    it 'calls Nbb::Competitions.all' do
+      expect(Nbb::Competitions).to receive(:all).with({}).once
+      described_class.competitions
+    end
+
+    it 'is the same as wrapped method' do
+      VCR.use_cassette :competitions_2015_2016_all, allow_playback_repeats: true do
+        original = Nbb::Competitions.all
+        wrapper = described_class.competitions
+        expect(wrapper.map(&:name)).to eq original.map(&:name)
+      end
+    end
   end
 
   describe '::teams' do
@@ -38,6 +59,14 @@ describe Nbb do
         club_id = 356
         expect(Nbb::Teams).to receive(:all).with(club_id: club_id).once
         described_class.teams club_id: club_id
+      end
+    end
+
+    it 'is the same as wrapped method' do
+      VCR.use_cassette :teams_celeritas_2015_2016, allow_playback_repeats: true do
+        original = Nbb::Teams.all club_id: 356
+        wrapper = described_class.teams club_id: 356
+        expect(wrapper.map(&:name)).to eq original.map(&:name)
       end
     end
   end

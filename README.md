@@ -54,13 +54,39 @@ NBB.clubs(options)
     @shirt="Rood",
     @vestpl="Amsterdam",
     @web="http://www.apgs-amsterdam.nl/">,
-  ...
+  # ...
 ]
 ```
 
 `NBB.clubs` accepts `options` hash with the following keys:
 
   - `organization_id` or `org_ID` (optional) which scopes the results to local organization only.
+
+### Competitions
+
+Get all competitions within NBB
+
+```ruby
+NBB.competitions(options)
+```
+
+```ruby
+[
+  <Nbb::Models::Competition:0x007fec98c9a630
+    @gewijzigd="2015-12-20 18:34:30",
+    @id="2529",
+    @naam="Nrd Mannen Senioren 3A",
+    @nr="NMS-3A",
+    @org_id="5">,
+  <Nbb::Models::Competition:0x007fec98c9a450
+    @gewijzigd="2015-12-20 18:34:30",
+    @id="2530",
+    @naam="Nrd Mannen Senioren 3B",
+    @nr="NMS-3B",
+    @org_id="5">,
+  # ...
+]
+```
 
 ### Teams
 
@@ -82,7 +108,7 @@ teams = NBB.teams club_id: 356
     @comp_id="2386",
     @id="9298",
     @naam="Dames U20 1">,
-  ...
+  # ...
 ]
 ```
 
