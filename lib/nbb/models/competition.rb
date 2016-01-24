@@ -1,7 +1,7 @@
 module Nbb
   module Models
     class Competition < Nbb::Models::Base
-      ATTRIBUTES = [:id, :org_id, :gewijzigd, :naam, :nr]
+      ATTRIBUTES = [:id, :org_id, :gewijzigd, :naam, :nr].freeze
       attr_accessor(*ATTRIBUTES)
 
       def name

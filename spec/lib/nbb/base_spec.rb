@@ -25,7 +25,7 @@ describe Nbb::Base do
       params = 'http://db.basketball.nl/db/json/foo.pl?org_id=123'
       allow(described_class).to receive(:endpoint).and_return 'foo.pl'
       allow(HTTParty).to receive(:get).with(params).and_return(:foo)
-      expect(described_class.response org_id: 123).to eq :foo
+      expect(described_class.response(org_id: 123)).to eq :foo
     end
   end
 end

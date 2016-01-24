@@ -3,7 +3,7 @@ require 'spec_helper'
 module Nbb
   module Models
     class TestEntity < Nbb::Models::Base
-      ATTRIBUTES = [:foo]
+      ATTRIBUTES = [:foo].freeze
       attr_accessor(*ATTRIBUTES)
     end
   end
