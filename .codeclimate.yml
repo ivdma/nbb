@@ -1,6 +1,6 @@
 engines:
-  bundler-audit:
-    enabled: true
+  # bundler-audit:
+  #   enabled: true
   rubocop:
     enabled: true
   duplication:
