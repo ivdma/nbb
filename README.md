@@ -31,7 +31,7 @@ Or install it yourself as:
 
 ### Authentication
 
-This gem provides access to read-only methods API endpoints and needs no authentication
+This gem provides access to read-only API endpoints and needs no authentication.
 
 ### Clubs
 
@@ -158,7 +158,7 @@ push git commits and tags, and push the `.gem` file to [rubygems.org](https://ru
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nbb. This project is intended to
+Bug reports and pull requests are welcome on GitHub at https://github.com/ivdma/nbb. This project is intended to
 be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
 [Contributor Covenant](contributor-covenant.org) code of conduct.
 
