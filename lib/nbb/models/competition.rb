@@ -4,21 +4,10 @@ module Nbb
       ATTRIBUTES = [:id, :org_id, :gewijzigd, :naam, :nr].freeze
       attr_accessor(*ATTRIBUTES)
 
-      def name
-        naam
-      end
-
-      def organization_id
-        org_id
-      end
-
-      def updated_at
-        gewijzigd
-      end
-
-      def iss_id
-        nr
-      end
+      alias_method :name, :naam
+      alias_method :organization_id, :org_id
+      alias_method :updated_at, :gewijzigd
+      alias_method :iss_id, :nr
     end
   end
 end

@@ -5,10 +5,10 @@
 [![Test Coverage](https://codeclimate.com/github/ivdma/nbb/badges/coverage.svg)](https://codeclimate.com/github/ivdma/nbb/coverage)
 [![Issue Count](https://codeclimate.com/github/ivdma/nbb/badges/issue_count.svg)](https://codeclimate.com/github/ivdma/nbb)
 
-# NBB
+# Nbb
 
 This Ruby gem parses
-[Nederlandse Basketbal Bond (NBB) JSON API](http://db.basketball.nl/help/koppelingen/json)
+[Nederlandse Basketbal Bond (NBB JSON API](http://db.basketball.nl/help/koppelingen/json)
 and returns plain old Ruby objects.
 
 ## Installation
@@ -38,7 +38,7 @@ This gem provides access to read-only API endpoints and needs no authentication.
 Get all registered clubs in NBB.
 
 ```ruby
-NBB.clubs(options)
+Nbb.clubs(options)
 ```
 
 ```ruby
@@ -58,7 +58,7 @@ NBB.clubs(options)
 ]
 ```
 
-`NBB.clubs` accepts `options` hash with the following keys:
+`Nbb.clubs` accepts `options` hash with the following keys:
 
   - `organization_id` or `org_ID` (optional) which scopes the results to local organization only.
 
@@ -67,7 +67,7 @@ NBB.clubs(options)
 Get a single registered club based on it's id.
 
 ```ruby
-NBB.club(356)
+Nbb.club(356)
 ```
 
 ```ruby
@@ -86,10 +86,10 @@ NBB.club(356)
 
 ### Competitions
 
-Get all competitions within NBB
+Get all competitions within Nbb
 
 ```ruby
-NBB.competitions(options)
+Nbb.competitions(options)
 ```
 
 ```ruby
@@ -110,22 +110,63 @@ NBB.competitions(options)
 ]
 ```
 
-### Teams
+### Matches
 
-Get club teams registered within NBB
+Get matches of the season based on criteria
 
 ```ruby
-teams = NBB.teams club_id: 356
+Nbb.matches club_id: 356
 ```
 
 ```ruby
 [
-  <NBB::Models::Team:0x007fd3b5924cb8
+  <Nbb::Models::Match:0x007f9d7cec6e10
+    @cmp_id="2820",
+    @cmp_nr="LHS2DA",
+    @datum=nil,
+    @id="694242",
+    @loc_id="768",
+    @nr="CG",
+    @org_id="1",
+    @score_thuis="0",
+    @score_uit="0",
+    @stats="0",
+    @thuis_club_id="356",
+    @thuis_ploeg="Celeritas-Donar HS 1",
+    @thuis_ploeg_id="3145",
+    @uit_club_id="355",
+    @uit_ploeg="Flying Red HS 1",
+    @uit_ploeg_id="3703">,
+  # ...
+]
+```
+
+`Nbb.matches` accepts `options` hash with the following keys:
+
+  - `club_id` or `clb_ID` (**required**) is the ID of the club.
+  - `cmp_ID` or `competition_id` (optional) matches of which competition to show.
+  - `clb_ID` or `club_id` (optional) matches of which club to show
+  - `date` or `updated_after` (optional) show matches updated after this date
+  - `loc_ID` or `location_id` (optional) matches which played on this location
+  - `plg_ID` or `team_id` (optional) match of this team
+  - `wed_ID` or `game_id` (optional) get specified match (returns an array of one match)
+
+### Teams
+
+Get club teams registered within Nbb
+
+```ruby
+Nbb.teams club_id: 356
+```
+
+```ruby
+[
+  <Nbb::Models::Team:0x007fd3b5924cb8
     @club_id="356",
     @comp_id="2531",
     @id="3587",
     @naam="Dames 1">,
-  <NBB::Models::Team:0x007fd3b59248a8
+  <Nbb::Models::Team:0x007fd3b59248a8
     @club_id="356",
     @comp_id="2386",
     @id="9298",
@@ -134,14 +175,13 @@ teams = NBB.teams club_id: 356
 ]
 ```
 
-`NBB.teams` accepts `options` hash with the following keys:
+`Nbb.teams` accepts `options` hash with the following keys:
 
   - `club_id` or `clb_ID` (**required**) is the ID of the club.
 
 ## Roadmap
 
 - Implement Positions (standen)
-- Implement Matches (schema/uitslagen)
 - Implement Locations (sporthallen)
 - Implement Stats (statistieken)
 - Implement different search filters
@@ -149,8 +189,8 @@ teams = NBB.teams club_id: 356
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can
-also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `bundle exec rspec spec` to run the
+tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the
 version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version,

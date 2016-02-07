@@ -15,4 +15,5 @@ ratings:
   - "**.rb"
 
 exclude_paths:
+- Guardfile
 - spec/**/*

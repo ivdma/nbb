@@ -4,23 +4,25 @@ module Nbb
       'club.pl'
     end
 
+    def self.json_root
+      'clubs'
+    end
+
+    def self.model
+      Nbb::Models::Club
+    end
+
     def self.all(params = {})
-      organization_id = params.delete(:organization_id) || params.delete(:org_id)
-      date            = params.delete(:date)
-
       query_string = {}
-      query_string[:org_id] = organization_id if organization_id
-      query_string[:date]   = date if date
+      query_string[:org_id] = params.delete(:organization_id) || params.delete(:org_id)
+      query_string[:date]   = params.delete(:date)
+      query_string.reject! { |_, v| v.nil? }
 
-      clubs query_string
+      response query_string
     end
 
     def self.find(id)
-      clubs.find { |club| club.id == id.to_s }
-    end
-
-    def self.clubs(query_string = {})
-      response(query_string)['clubs'].map { |club| Nbb::Models::Club.new(club) }
+      response.find { |club| club.id == id.to_s }
     end
   end
 end

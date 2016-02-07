@@ -1,37 +1,28 @@
 require 'spec_helper'
 
 describe Nbb::Models::Team do
-  let(:valid_attributes) do
-    {
-      id: '123',
-      comp_id: '456',
-      naam: 'Heren 5',
-      club_id: '2'
-    }
-  end
-
   it 'is Models::Base' do
     expect(described_class.new).to be_a Nbb::Models::Team
   end
 
   describe 'initialization' do
-    subject { described_class.new(valid_attributes) }
+    subject { Fabricate :team }
 
     context 'valid' do
       it 'parses id' do
-        expect(subject.id).to eq valid_attributes[:id]
+        expect(subject.id).to eq 1
       end
 
       it 'parses comp_id' do
-        expect(subject.comp_id).to eq valid_attributes[:comp_id]
+        expect(subject.comp_id).to eq 1
       end
 
       it 'parses naam' do
-        expect(subject.naam).to eq valid_attributes[:naam]
+        expect(subject.naam).to eq 'Heren 5'
       end
 
       it 'parses club_id' do
-        expect(subject.club_id).to eq valid_attributes[:club_id]
+        expect(subject.club_id).to eq 1
       end
     end
 
@@ -43,10 +34,14 @@ describe Nbb::Models::Team do
   end
 
   describe 'aliasses' do
-    subject { described_class.new(valid_attributes) }
+    subject { Fabricate :team }
 
-    it 'aliases naam to name' do
-      expect(subject.name).to eq valid_attributes[:naam]
+    it 'name to naam' do
+      expect(subject.name).to eq subject.naam
+    end
+
+    it 'competition_id to comp_id' do
+      expect(subject.competition_id).to eq subject.comp_id
     end
   end
 end

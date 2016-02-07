@@ -3,19 +3,19 @@ require 'spec_helper'
 describe Nbb do
   describe 'VERSION' do
     it 'has a MAJOR version' do
-      expect(NBB::MAJOR).not_to be nil
+      expect(Nbb::MAJOR).not_to be nil
     end
 
     it 'has a MINOR version' do
-      expect(NBB::MINOR).not_to be nil
+      expect(Nbb::MINOR).not_to be nil
     end
 
     it 'has a TINY version' do
-      expect(NBB::TINY).not_to be nil
+      expect(Nbb::TINY).not_to be nil
     end
 
     it 'has a version that equals MAJOR.MINOR.TINY version' do
-      expect(NBB::VERSION).to eq "#{NBB::MAJOR}.#{NBB::MINOR}.#{NBB::TINY}"
+      expect(Nbb::VERSION).to eq "#{Nbb::MAJOR}.#{Nbb::MINOR}.#{Nbb::TINY}"
     end
   end
 
@@ -35,7 +35,7 @@ describe Nbb do
   end
 
   describe '::club' do
-    it 'calls NBB::Clubs.find' do
+    it 'calls Nbb::Clubs.find' do
       VCR.use_cassette :clubs_2015_2016 do
         expect(Nbb::Clubs).to receive(:find).with(356).once
         described_class.club 356
@@ -61,6 +61,19 @@ describe Nbb do
         original = Nbb::Competitions.all
         wrapper = described_class.competitions
         expect(wrapper.map(&:name)).to eq original.map(&:name)
+      end
+    end
+  end
+
+  describe '::matches' do
+    it 'responds to matches' do
+      expect(described_class).to respond_to :matches
+    end
+
+    it 'calls Nbb::Matches.all' do
+      VCR.use_cassette :matches_celeritas_2015_2016 do
+        expect(Nbb::Matches).to receive(:all).once
+        described_class.matches
       end
     end
   end

@@ -8,21 +8,10 @@ module Nbb
         "#{adres} #{postcode}, #{plaats}"
       end
 
-      def name
-        naam
-      end
-
-      def organization_id
-        org_id
-      end
-
-      def address
-        adres
-      end
-
-      def zipcode
-        postcode
-      end
+      alias_method :name, :naam
+      alias_method :organization_id, :org_id
+      alias_method :address, :adres
+      alias_method :zipcode, :postcode
     end
   end
 end

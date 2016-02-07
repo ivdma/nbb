@@ -18,3 +18,9 @@ Metrics/LineLength:
 # Documentation is currently provided via README.md
 Style/Documentation:
   Enabled: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/SignalException:
+  EnforcedStyle: semantic

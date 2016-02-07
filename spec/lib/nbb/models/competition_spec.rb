@@ -1,42 +1,32 @@
 require 'spec_helper'
 
 describe Nbb::Models::Competition do
-  let(:valid_attributes) do
-    {
-      id: '123',
-      org_id: '5',
-      gewijzigd: '2015-12-20 18:34:30',
-      naam: 'Nrd Mannen Senioren 3B',
-      nr: 'NMS-3B'
-    }
-  end
-
   it 'is Nbb::Models::Competition' do
     expect(described_class.new).to be_a Nbb::Models::Competition
   end
 
   describe 'initialization' do
-    subject { described_class.new(valid_attributes) }
+    subject { Fabricate :competition }
 
     context 'valid' do
       it 'parses id' do
-        expect(subject.id).to eq valid_attributes[:id]
+        expect(subject.id).to eq 1
       end
 
       it 'parses org_id' do
-        expect(subject.org_id).to eq valid_attributes[:org_id]
+        expect(subject.org_id).to eq 1
       end
 
       it 'parses gewijzigd' do
-        expect(subject.gewijzigd).to eq valid_attributes[:gewijzigd]
+        expect(subject.gewijzigd).to match(/2015-12-12/)
       end
 
       it 'parses naam' do
-        expect(subject.naam).to eq valid_attributes[:naam]
+        expect(subject.naam).to match 'HS 3b'
       end
 
       it 'parses nr' do
-        expect(subject.nr).to eq valid_attributes[:nr]
+        expect(subject.nr).to eq 1
       end
     end
 
@@ -48,22 +38,22 @@ describe Nbb::Models::Competition do
   end
 
   describe 'aliasses' do
-    subject { described_class.new(valid_attributes) }
+    subject { Fabricate :competition }
 
     it 'has an alias name for naam' do
-      expect(subject.name).to eq valid_attributes[:naam]
+      expect(subject.name).to eq 'Nrd HS 3b'
     end
 
     it 'has an alias organization_id for org_id' do
-      expect(subject.organization_id).to eq valid_attributes[:org_id]
+      expect(subject.organization_id).to eq 1
     end
 
     it 'has an alias updated_at for gewijzigd' do
-      expect(subject.updated_at).to eq valid_attributes[:gewijzigd]
+      expect(subject.updated_at).to eq '2015-12-12 13:45:00'
     end
 
     it 'has an alias iss_id for nr' do
-      expect(subject.iss_id).to eq valid_attributes[:nr]
+      expect(subject.iss_id).to eq 1
     end
   end
 end

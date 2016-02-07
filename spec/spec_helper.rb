@@ -8,6 +8,7 @@ require 'nbb'
 require 'webmock/rspec'
 require 'vcr'
 require 'pry'
+require 'fabrication'
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures'

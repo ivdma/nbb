@@ -4,6 +4,14 @@ module Nbb
       'team.pl'
     end
 
+    def self.json_root
+      'teams'
+    end
+
+    def self.model
+      Nbb::Models::Team
+    end
+
     def self.all(params = {})
       club_id = params.delete(:clb_ID) || params.delete(:club_id)
       fail ArgumentError, 'Missing `clb_ID` (or `club_id`) parameter.' unless club_id
@@ -11,11 +19,7 @@ module Nbb
       query_string = {}
       query_string[:clb_ID] = club_id
 
-      teams(query_string)
-    end
-
-    def self.teams(query_string)
-      response(query_string)['teams'].map { |team| Nbb::Models::Team.new(team) }
+      response query_string
     end
   end
 end

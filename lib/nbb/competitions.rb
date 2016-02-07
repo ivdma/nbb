@@ -4,20 +4,20 @@ module Nbb
       'competities.pl'
     end
 
-    def self.all(params = {})
-      organization_id = params.delete(:organization_id) || params.delete(:org_ID)
-      date            = params.delete(:date)
-
-      query_string = {}.tap do |hash|
-        hash[:org_ID] = organization_id if organization_id
-        hash[:date]   = date            if date
-      end
-
-      competitions query_string
+    def self.json_root
+      'competities'
     end
 
-    def self.competitions(query_string = {})
-      response(query_string)['competities'].map { |competition| Nbb::Models::Competition.new(competition) }
+    def self.model
+      Nbb::Models::Competition
+    end
+
+    def self.all(params = {})
+      query_string = {}
+      query_string[:org_ID] = params.delete(:organization_id) || params.delete(:org_ID)
+      query_string[:date]   = params.delete(:date)
+
+      response query_string
     end
   end
 end
