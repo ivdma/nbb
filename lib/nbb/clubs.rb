@@ -16,7 +16,6 @@ module Nbb
       query_string = {}
       query_string[:org_id] = params.delete(:organization_id) || params.delete(:org_id)
       query_string[:date]   = params.delete(:date)
-      query_string.reject! { |_, v| v.nil? }
 
       response query_string
     end
