@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/stand.pl?cmp_ID=2530
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 07 Feb 2016 18:30:38 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"stand":[{"afko":"Jumping Five HS 2","ID":"3676","status":"Actief","rang":"1","gespeeld":"15","percentage":"86.7","tegenscore":"593","punten":"26","eigenscore":"963","datum":"2016-01-10","team":"Jumping
+        Five Heren 2","saldo":370,"positie":"1"},{"afko":"BV Jahn II HS 2","ID":"3669","status":"Actief","rang":"2","gespeeld":"12","percentage":"91.7","tegenscore":"527","punten":"22","eigenscore":"898","datum":"2016-01-10","team":"BV
+        Jahn II Heren 2","saldo":371,"positie":"2"},{"afko":"Celeritas-Donar HS 5","ID":"3746","status":"Actief","rang":"3","gespeeld":"12","percentage":"66.7","tegenscore":"604","punten":"16","eigenscore":"698","datum":"2016-01-30","team":"Celeritas-Donar
+        Heren 5","saldo":94,"positie":"3"},{"afko":"BV Epeios HS 1","ID":"3749","status":"Actief","rang":"4","gespeeld":"13","percentage":"53.8","tegenscore":"688","punten":"14","eigenscore":"640","datum":"2016-01-30","team":"BV
+        Epeios Heren 1","saldo":-48,"positie":"4"},{"afko":"BV Penta HS 2","ID":"5739","status":"Actief","rang":"5","gespeeld":"9","percentage":"55.6","tegenscore":"526","punten":"10","eigenscore":"654","datum":"2015-12-04","team":"BV
+        Penta Heren 2","saldo":128,"positie":"5"},{"afko":"GSBV Moestasj HS 4","ID":"3973","status":"Actief","rang":"6","gespeeld":"11","percentage":"36.4","tegenscore":"663","punten":"8","eigenscore":"561","datum":"2016-01-20","team":"GSBV
+        Moestasj Heren 4","saldo":-102,"positie":"6"},{"afko":"SIETSEMA Highlanders
+        HS 1","ID":"3745","status":"Actief","rang":"7","gespeeld":"11","percentage":"27.3","tegenscore":"715","punten":"6","eigenscore":"565","datum":"2016-01-24","team":"SIETSEMA
+        Highlanders Heren 1","saldo":-150,"positie":"7"},{"afko":"BV Millwings HS
+        2","ID":"3693","status":"Actief","rang":"8","gespeeld":"13","percentage":"23.1","tegenscore":"927","punten":"6","eigenscore":"631","datum":"2016-01-24","team":"BV
+        Millwings Heren 2","saldo":-296,"positie":"8"},{"afko":"De Groene Uilen HS
+        6","ID":"3806","status":"Actief","rang":"9","gespeeld":"12","percentage":"0.0","tegenscore":"779","punten":"0","eigenscore":"412","datum":"2015-12-02","team":"De
+        Groene Uilen Heren 6","saldo":-367,"positie":"9"},{"afko":"Exercitia ''73
+        2 HS 2","ID":"3685","status":"Teruggetrokken","rang":"10","gespeeld":"0","percentage":0,"tegenscore":"0","punten":"-99","eigenscore":"0","datum":"2016-01-31","team":"Exercitia
+        ''73 2 Heren 2","saldo":0,"positie":"10"},{"afko":"Aquila HS 2","ID":"6396","status":"Teruggetrokken","rang":"11","gespeeld":"0","percentage":0,"tegenscore":"0","punten":"-99","eigenscore":"0","datum":"2016-01-31","team":"Aquila
+        Heren 2","saldo":0,"positie":"11"},{"afko":"GSBV Moestasj HS 3","ID":"3769","status":"Teruggetrokken","rang":"12","gespeeld":"0","percentage":0,"tegenscore":"0","punten":"-99","eigenscore":"0","datum":"2016-01-16","team":"GSBV
+        Moestasj Heren 3","saldo":0,"positie":"12"}],"nummer":"NMS-3B","version":"1.0","aantal_teams":12,"gewijzigd":"2016-02-07
+        18:34:55","id":"2530","naam":"Nrd Mannen Senioren 3B","seizoen":"2015-2016"}'
+    http_version: 
+  recorded_at: Sun, 07 Feb 2016 18:30:38 GMT
+recorded_with: VCR 3.0.1
