@@ -1,6 +1,6 @@
 machine:
   ruby:
-    version: 2.2.4
+    version: 2.3.1
 dependencies:
   pre:
     - 'rvm-exec 1.9.3-p551 gem install bundler'
