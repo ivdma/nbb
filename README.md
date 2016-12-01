@@ -7,9 +7,7 @@
 
 # Nbb
 
-This Ruby gem parses
-[Nederlandse Basketbal Bond (NBB JSON API](http://db.basketball.nl/help/koppelingen/json)
-and returns plain old Ruby objects.
+This Ruby gem parses [Nederlandse Basketbal Bond (NBB)](http://db.basketball.nl/help/koppelingen/json) JSON API and returns plain old Ruby objects.
 
 ## Installation
 
