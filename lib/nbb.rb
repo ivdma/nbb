@@ -5,12 +5,14 @@ require 'active_support/core_ext/object/to_param'
 require 'nbb/models/base'
 require 'nbb/models/club'
 require 'nbb/models/competition'
+require 'nbb/models/location'
 require 'nbb/models/match'
 require 'nbb/models/team'
 
 require 'nbb/base'
 require 'nbb/clubs'
 require 'nbb/competitions'
+require 'nbb/locations'
 require 'nbb/matches'
 require 'nbb/teams'
 require 'nbb/version'
@@ -26,6 +28,10 @@ module Nbb
 
   def self.competitions(params = {})
     Nbb::Competitions.all(params)
+  end
+
+  def self.locations(params = {})
+    Nbb::Locations.all(params)
   end
 
   def self.matches(params = {})

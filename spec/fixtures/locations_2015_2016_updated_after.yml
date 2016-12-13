@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://db.basketball.nl/db/json/locatie.pl?date=2015-12-27%2018:00:00
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Dec 2016 10:54:43 GMT
+      Server:
+      - Apache/2.2.22 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"last_change":"2016-12-09 18:30:06","version":"1.1","locaties":[{"lat":"51.2667597","adres":"Halewijnstraat
+        2","plaats":"Axel","org_id":"4","telefoon":"","id":"128","lon":"3.9102786","naam":"''t
+        Sportuus","postcode":"4571 DA","nr":"AXLSP"},{"lat":"52.3018040","adres":"''t
+        Wooldrik 1","plaats":"Borne","org_id":"3","telefoon":"074-2663096","id":"310","lon":"6.7499394","naam":"''t
+        Wooldrik","postcode":"7621 AH","nr":"BNEWO"},{"lat":"52.0322376","adres":"Ronde
+        Erf 24","plaats":"Veenendaal","org_id":"3","telefoon":"0318-510926","id":"313","lon":"5.5688343","naam":"Aller
+        Erf","postcode":"3902 CZ","nr":"VNDAL"},{"lat":"52.2004930","adres":"Stadhoudersdreef
+        1","plaats":"Katwijk","org_id":"2","telefoon":"071-4014856","id":"105","lon":"4.4168578","naam":"Cleyn
+        Duin","postcode":"2224 BN","nr":"KWZCL"},{"lat":"51.6384131","adres":"van
+        Oldenbarneveldtstraat","plaats":"Dinteloord","org_id":"4","telefoon":"0167-522925","id":"142","lon":"4.3669707","naam":"De
+        Buitelstee","postcode":"4671 CZ","nr":"DTLBU"},{"lat":null,"adres":"Kalmoesstraat
+        13","plaats":"Heerhugowaard","org_id":"6","telefoon":"072-8888963","id":"1189","lon":null,"naam":"De
+        Draai","postcode":"1706 AJ","nr":"HHWDR"},{"lat":null,"adres":"Rijksstraatweg
+        1","plaats":"Zuidhorn","org_id":"5","telefoon":"","id":"1176","lon":null,"naam":"De
+        Noordster","postcode":"9801 AM","nr":"ZDHNO"},{"lat":"52.4680222","adres":"Drielse
+        Wetering 84","plaats":"Zaandam","org_id":"6","telefoon":"075-6552244","id":"825","lon":"4.8365926","naam":"De
+        Tref","postcode":"1509 KR","nr":"ZDMTR"},{"lat":"53.1914520","adres":"J. Rodenhuisplein
+        3","plaats":"Franeker","org_id":"5","telefoon":"0517-393460","id":"792","lon":"5.5401115","naam":"De
+        Trije","postcode":"8801 DP","nr":"FNKTR"},{"lat":"52.3992670","adres":"Beemsterstraat
+        656","plaats":"Amsterdam","org_id":"6","telefoon":"020-6322756","id":"841","lon":"4.9611233","naam":"De
+        Weeren","postcode":"1027 ED","nr":"ASDWE"},{"lat":"52.9258840","adres":"Dobbelaan
+        15","plaats":"St. Nicolaasga","org_id":"5","telefoon":"0513-431122","id":"799","lon":"5.7392868","naam":"Doniahal","postcode":"8521
+        KS","nr":"NCLDO"},{"lat":"52.1064231","adres":"Alb. Schweitzerlaan 10a","plaats":"Vleuten","org_id":"2","telefoon":"030-6771644","id":"896","lon":"5.0135721","naam":"Fletiohal","postcode":"3451
+        EC","nr":"VLEFH"},{"lat":"52.4005654","adres":"Beemsterstraat 652","plaats":"Amsterdam","org_id":"6","telefoon":"020-3331234","id":"1115","lon":"4.9600515","naam":"Friendship
+        Sports Centre","postcode":"1027 ED","nr":"ASDMD"},{"lat":"52.3383937","adres":"Sportparklaan
+        16","plaats":"Heemstede","org_id":"6","telefoon":"023-5292072","id":"814","lon":"4.6259665","naam":"Groenendaal","postcode":"2103
+        VT","nr":"HMSGR"},{"lat":"51.8185263","adres":"Heyendaalseweg 141","plaats":"Nijmegen","org_id":"3","telefoon":"024-3612392","id":"1108","lon":"5.8675946","naam":"Gymnasion
+        Hal B","postcode":"6525 AJ","nr":"NMGGB"},{"lat":"53.0510965","adres":"Emmalaan
+        51","plaats":"Den Burg","org_id":"6","telefoon":"0222-313471","id":"871","lon":"4.7975758","naam":"Koninghal","postcode":"1791
+        AT","nr":"DBUKO"},{"lat":"0.0000000","adres":"","plaats":"Haarlem","org_id":"6","telefoon":"","id":"1182","lon":"0.0000000","naam":"Krelagehuis","postcode":"","nr":"-KRE"},{"lat":"52.2238488","adres":"Zilverschoon
+        112","plaats":"Apeldoorn","org_id":"3","telefoon":"055-3663333","id":"381","lon":"5.9894872","naam":"Mheenpark","postcode":"7322
+        GD","nr":"APDMH"},{"lat":"0.0000000","adres":"","plaats":"","org_id":"1","telefoon":"","id":"1183","lon":"0.0000000","naam":"RAI","postcode":"","nr":"-RAI"},{"lat":"53.2358837","adres":"Oosterhamriklaan
+        171","plaats":"Groningen","org_id":"5","telefoon":"050-5718121","id":"1060","lon":"6.5713130","naam":"Rayonbureau
+        Rayon Noord","postcode":"9715 PC","nr":"GRNRN"},{"lat":null,"adres":"Paardenmarkt","plaats":"Alkmaar","org_id":"1","telefoon":"","id":"1184","lon":null,"naam":"SBM
+        Paardenmarkt","postcode":"1811 KH","nr":"AMRPA"},{"lat":null,"adres":"Stadionplein","plaats":"Amsterdam","org_id":"1","telefoon":"","id":"1186","lon":null,"naam":"SBM
+        Stadionplein","postcode":"1076 DE","nr":"ASDST"},{"lat":null,"adres":"Torenplein","plaats":"Barneveld","org_id":"1","telefoon":"","id":"1188","lon":null,"naam":"SBM
+        Torenplein","postcode":"3772 CZ","nr":"BNVTO"},{"lat":"52.2947439","adres":"Straatsburg","plaats":"Hengelo
+        (o)","org_id":"3","telefoon":"074-2771331","id":"588","lon":"6.8054774","naam":"Slangenbeek","postcode":"7559
+        MN","nr":"HGLSL"},{"lat":null,"adres":"Jan Ligthartstraat 95","plaats":"Rotterdam","org_id":"2","telefoon":"","id":"1191","lon":null,"naam":"Sportcentrum
+        De Sportmotor","postcode":"3083 AL","nr":"RTDSM"},{"lat":null,"adres":"Europaweg
+        48","plaats":"Utrecht","org_id":"2","telefoon":"030-6664686","id":"1181","lon":null,"naam":"Sportcentrum
+        Oudenrijn","postcode":"3451 HG","nr":"UTROR"},{"lat":null,"adres":"Pieter
+        Calandlaan 3","plaats":"Amsterdam","org_id":"6","telefoon":"020-3032656","id":"1175","lon":null,"naam":"Sporthal
+        Calvijn","postcode":"1065 KH","nr":"ASDSC"},{"lat":"52.1528741","adres":"Amailiaplein
+        40","plaats":"Leiderdorp","org_id":"2","telefoon":"","id":"85","lon":"4.5296507","naam":"Sporthal
+        de Does","postcode":"2351 PV","nr":"LDDDO"},{"lat":"51.8354514","adres":"Fazantenlaan
+        4","plaats":"Hellevoetsluis","org_id":"2","telefoon":"0181-316060","id":"915","lon":"4.1191937","naam":"Sporthal
+        de Fazant","postcode":"3222 AM","nr":"HLVFA"},{"lat":null,"adres":"Hobbemastraat
+        93","plaats":"Den Haag","org_id":"2","telefoon":"","id":"1174","lon":null,"naam":"Sporthal
+        De Houtzagerij","postcode":"2526 GJ","nr":"DHGHZ"},{"lat":null,"adres":"Zanzibarplein
+        21","plaats":"Zoetermeer","org_id":"1","telefoon":"","id":"1173","lon":null,"naam":"Sporthal
+        De Oosterpoort","postcode":"2721 GE","nr":"ZTMOO"},{"lat":null,"adres":"Zuiderweg
+        70/1","plaats":"Groningen","org_id":"5","telefoon":"","id":"1180","lon":null,"naam":"Sporthal
+        Hoogkerk","postcode":"9744 AP","nr":"GRNHK"},{"lat":"52.3512531","adres":"Pampuslaan
+        1","plaats":"Amsterdam","org_id":"6","telefoon":"","id":"1088","lon":"5.0041575","naam":"Sporthal
+        IJburgcollege","postcode":"1087 HP","nr":"ASDIJ"},{"lat":"52.0631324","adres":"Zwarte
+        Woud 201","plaats":"Utrecht","org_id":"2","telefoon":"030-2862940","id":"620","lon":"5.1422020","naam":"Sporthal
+        Lunetten","postcode":"3524 SG","nr":"UTRLU"},{"lat":"52.0251665","adres":"Poortdijk
+        36","plaats":"IJsselstein","org_id":"2","telefoon":"030-6882838","id":"612","lon":"5.0530741","naam":"Sporthal
+        Poortdijk","postcode":"3402 BS","nr":"YSSPO"},{"lat":null,"adres":"Naningalaan
+        1","plaats":"Nieuwegein","org_id":"2","telefoon":"","id":"1179","lon":null,"naam":"sporthal
+        Wijkersloot","postcode":"3431 RD","nr":"NWGWS"},{"lat":null,"adres":"Theo
+        Koomenlaan 3","plaats":"Eindhoven","org_id":"1","telefoon":"","id":"1172","lon":null,"naam":"Sporthogeschool
+        Fontys","postcode":"5644 HZ","nr":"EHVFO"},{"lat":null,"adres":"Vennemeerstraat
+        1","plaats":"Leiden","org_id":"2","telefoon":"","id":"1177","lon":null,"naam":"Sportzaal
+        Houtkwartier","postcode":"2334 DE","nr":"LDNHT"},{"lat":null,"adres":"Oegstgeesterweg
+        4a","plaats":"Leiden","org_id":"2","telefoon":"","id":"1178","lon":null,"naam":"sportzaal
+        Kikkerpolder","postcode":"2334 BZ","nr":"LDNKP"},{"lat":"53.1872937","adres":"It
+        Ketting 1","plaats":"Surhuisterveen","org_id":"5","telefoon":"0512-362161","id":"801","lon":"6.1643051","naam":"Surventohal","postcode":"9231
+        AK","nr":"SHTSU"},{"lat":null,"adres":"The Sportbox","plaats":"Utrecht","org_id":"1","telefoon":"","id":"1193","lon":null,"naam":"The
+        Sportbox","postcode":"3534 AM","nr":"UTRSP"},{"lat":"52.5209316","adres":"Hogeland
+        10","plaats":"Zwolle","org_id":"3","telefoon":"","id":"1113","lon":"6.1240897","naam":"Topsporthal
+        DE","postcode":"8024 AZ","nr":"ZWLTD"},{"lat":null,"adres":"Tramkade","plaats":"''s-Hertogenbosch","org_id":"1","telefoon":"","id":"1192","lon":null,"naam":"Tramkade","postcode":"5211
+        VB","nr":"DBSTR"},{"lat":"51.9429934","adres":"Eltensestraat 4","plaats":"Duiven","org_id":"3","telefoon":"0316-264363","id":"1097","lon":"6.0046187","naam":"Triominos","postcode":"6922
+        JB","nr":"DVNTR"},{"lat":"51.8167611","adres":"Kwekerijweg 4","plaats":"Nijmegen","org_id":"3","telefoon":"024-3612392","id":"404","lon":"5.8686448","naam":"Un.
+        Sportcentrum","postcode":"6525 RZ","nr":"NMGUN"},{"lat":null,"adres":"Arenaboulevard","plaats":"Amsterdam","org_id":"1","telefoon":"","id":"1185","lon":null,"naam":"USWA
+        Arenaboulevard","postcode":"1101 DM","nr":"ASDAR"},{"lat":null,"adres":"Centuurbaan","plaats":"Amsterdam","org_id":"1","telefoon":"","id":"1187","lon":null,"naam":"USWA
+        Centuurbaan","postcode":"1074 ED","nr":"ASDUS"},{"lat":"52.2432718","adres":"Promenade
+        1","plaats":"Enschede","org_id":"3","telefoon":"053-4898001","id":"1105","lon":"6.8528871","naam":"UT
+        Sporthal B/2","postcode":"7513 AM","nr":"ESDUB"},{"lat":null,"adres":"Polderweg
+        300","plaats":"Amsterdam","org_id":"6","telefoon":"020-6936459","id":"1190","lon":null,"naam":"Wethouder
+        Verheijhal","postcode":"1093 KP","nr":"ASDWV"},{"lat":"53.1791262","adres":"Ublingaplantage
+        4","plaats":"Leeuwarden","org_id":"5","telefoon":"058-2803642","id":"1030","lon":"5.8189665","naam":"Wiardahal","postcode":"8939
+        EZ","nr":"LWDWI"}]}'
+    http_version: 
+  recorded_at: Tue, 13 Dec 2016 10:54:43 GMT
+recorded_with: VCR 3.0.3
