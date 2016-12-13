@@ -65,6 +65,21 @@ describe Nbb do
     end
   end
 
+  describe '::locations' do
+    it 'calls Nbb::Locations.all' do
+      expect(Nbb::Locations).to receive(:all).with({}).once
+      described_class.locations
+    end
+
+    it 'is the same as wrapped method' do
+      VCR.use_cassette :locations_2015_2016_all, allow_playback_repeats: true do
+        original = Nbb::Locations.all
+        wrapper = described_class.locations
+        expect(wrapper.map(&:name)).to eq original.map(&:name)
+      end
+    end
+  end
+
   describe '::matches' do
     it 'responds to matches' do
       expect(described_class).to respond_to :matches

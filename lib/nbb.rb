@@ -30,6 +30,10 @@ module Nbb
     Nbb::Competitions.all(params)
   end
 
+  def self.locations(params = {})
+    Nbb::Locations.all(params)
+  end
+
   def self.matches(params = {})
     Nbb::Matches.all(params)
   end
